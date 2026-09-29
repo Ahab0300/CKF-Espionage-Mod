@@ -1,0 +1,127 @@
+{
+	"Metadata": {
+		"#": "Lockbreaker Blue, Lockbreaker Red, Lockbreaker Gold",
+		"StoryKey": "Lockbreaker",
+		"StartingId": 781001001
+	},
+	"Item": [
+		{
+			"#": "Lockbreaker Blue, enables a Leverage that grants a Blue Key",
+			"ItemTypeId": 781001001,
+			"Class": 6,
+			"Asset": 1000,
+			"Service": -1,
+			"Leverage": 781001001,
+			"Rarity": 2,
+			"PowerLevel": 2,
+			"Cost": 10,
+			"Talent": 0,
+			"Name": "Lockbreaker Blue",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks to open Blue Key doors."
+		},
+		{
+			"#": "Lockbreaker Red, grants a Leverage which gives a Red Key",
+			"ItemTypeId": 781001002,
+			"Class": 6,
+			"Asset": 1000,
+			"Service": -1,
+			"Leverage": 781001002,
+			"Rarity": 3,
+			"PowerLevel": 4,
+			"Cost": 10,
+			"Talent": 0,
+			"Name": "Lockbreaker Red",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks to open Red Key doors."
+		},
+		{
+			"#": "Lockbreaker Gold, grants a Leverage which gives a Gold Key",
+			"ItemTypeId": 781001003,
+			"Class": 6,
+			"Asset": 1000,
+			"Service": -1,
+			"Leverage": 781001003,
+			"Rarity": 4,
+			"PowerLevel": 6,
+			"Cost": 10,
+			"Talent": 0,
+			"Name": "Lockbreaker Gold",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks to open Gold Key doors."
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Lockbreaker Blue",
+			"MissionLootId": 781001001,
+			"Group": 781001001,
+			"Type": 0,
+			"Key": 781001001,
+			"PowerLevel": 2,
+			"Rarity": 2,
+			"Name": "Item.Name.781001001",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for Lockbreaker Red",
+			"MissionLootId": 781001002,
+			"Group": 781001002,
+			"Type": 0,
+			"Key": 781001002,
+			"PowerLevel": 4,
+			"Rarity": 3,
+			"Name": "Item.Name.781001002",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for Lockbreaker Gold",
+			"MissionLootId": 781001003,
+			"Group": 781001003,
+			"Type": 0,
+			"Key": 781001003,
+			"PowerLevel": 6,
+			"Rarity": 4,
+			"Name": "Item.Name.781001003",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"MissionAdvantage": [
+		{
+			"#": "Leverage for Lockbreaker Blue item",
+			"AdvantageTypeId": 781001001,
+			"Class": 2,
+			"ActionType": 100,
+			"ActionOpt": 2,
+			"PowerLevel": 1,
+			"Item": 781001001,
+			"Name": "Lockbreaker Blue",
+			"Rule": "Analyze electronic locks to generate a Blue Key for all stages.",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks and generate a Blue Key for all stages."
+		},
+		{
+			"#": "Leverage for Lockbreaker Red item",
+			"AdvantageTypeId": 781001002,
+			"Class": 2,
+			"ActionType": 100,
+			"ActionOpt": 1,
+			"PowerLevel": 1,
+			"Item": 781001002,
+			"Name": "Lockbreaker Red",
+			"Rule": "Analyze electronic locks to generate a Red Key for all stages.",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks and generate a Red Key for all stages."
+		},
+		{
+			"#": "Leverage for Lockbreaker Gold item",
+			"AdvantageTypeId": 781001003,
+			"Class": 2,
+			"ActionType": 100,
+			"ActionOpt": 3,
+			"PowerLevel": 1,
+			"Item": 781001003,
+			"Name": "Lockbreaker Gold",
+			"Rule": "Analyze electronic locks to generate a Gold Key for all stages.",
+			"Desc": "A specialized quantum crypto breaker designed to analyze electronic locks and generate a Gold Key for all stages."
+		}
+	]
+}

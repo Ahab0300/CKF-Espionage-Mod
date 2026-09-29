@@ -1,0 +1,60 @@
+{
+	"Metadata": {
+		"#": "Mirrorwall",
+		"StoryKey": "Mirrorwall",
+		"StartingId": 781000016
+	},
+	"Item": [
+		{
+			"#": "Mirrorwall, a portable mirror to block visual detection",
+			"ItemTypeId": 781000016,
+			"ItemClass": 3,
+			"Asset3DTypeId": 25,
+			"ServiceOptionId": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 5,
+			"Cost": 10,
+			"TalentId": 781000016,
+			"Name": "Mirrorwall",
+			"Desc": "A portable mirror to block visual detection."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Mirrorwall, derived from Refract talent (id 1206)",
+			"TalentId": 781000016,
+			"Type": 781000016,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 6,
+			"Action": 8,
+			"AP": 20,
+			"Token": 11,
+			"TokenDuration": 2,
+			"Charges": 1,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/YellowBuffV2",
+			"Icon": "talent_vanguard_refract",
+			"StringKey": "Job.Talents.FloorToken.RefractWall",
+			"EventSFX": "CHAR_TLNT_Debuff",
+			"GroupSFX": "DebuffType",
+			"TypeSFX": "Jammed",
+			"Name": "Mirrorwall"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Mirrorwall",
+			"MissionLootId": 781000016,
+			"Group": 781000016,
+			"Type": 2,
+			"Key": 781000016,
+			"PowerLevel": 5,
+			"Rarity": 3,
+			"Name": "Item.Name.781000016",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	]
+}

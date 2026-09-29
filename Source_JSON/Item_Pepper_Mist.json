@@ -1,0 +1,86 @@
+{
+	"Metadata": {
+		"#": "Pepper Mist",
+		"StoryKey": "PepperMist",
+		"StartingId": 781000006
+	},
+	"Item": [
+		{
+			"#": "Pepper Mist, produces an eye irritant",
+			"ItemTypeId": 781000006,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 1,
+			"PowerLevel": 1,
+			"Cost": 10,
+			"Talent": 781000006,
+			"Name": "Pepper Mist",
+			"Desc": "A grenade which releases a mild eye irritant, reducing visual range."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Pepper Mist, derived from Buzzcut, changing the effect to visual range reduction",
+			"TalentId": 781000006,
+			"Type": 781000006,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 15,
+			"AoE": 8,
+			"Action": 3,
+			"AP": 20,
+			"TargetEffect": 781000006,
+			"TargetDuration": 3,
+			"Token": 15,
+			"TokenDuration": 3,
+			"Filter": 15,
+			"Animation": 3,
+			"Charges": 2,
+			"Recharge": 0,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/WhiteNoiseBuff",
+			"TokenVfx": "Tokens/VFX White Noise",
+			"Icon": "talent_toxkit_aeroshrap",
+			"StringKey": "Jobs.Talents.Active.Grenade.Peppermist",
+			"EventSFX": "CHAR_ITEM_GrenadeExplode",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "Vulnerable",
+			"Name": "Pepper Mist"
+		}
+	],
+	"Effect": [
+		{
+			"#": "Effect for Pepper Mist, derived from Buzzcut, changing the effect to visual range reduction",
+			"EffectId": 781000006,
+			"Class": 10,
+			"SightRange": -9,
+			"IconAsset": "talent_toxkit_aeroshrap",
+			"Name": "Pepper Mist"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Pepper Mist",
+			"MissionLootId": 781000006,
+			"Group": 781000006,
+			"Type": 2,
+			"Key": 781000006,
+			"PowerLevel": 1,
+			"Rarity": 1,
+			"Name": "Item.Name.781000006",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Jobs.Talents.Active.Grenade.Peppermist": {
+				"zero": "Toss up to {3}, creating a mildly irritating cloud {4} across for {15}remainder of the Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",
+				"one": "Toss up to {3}, creating a mildly irritating cloud {4} across {15}until end of next Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",
+				"other": "Toss up to {3}, creating a mildly irritating cloud {4} across for {15}next {0} Turns{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones."
+			}
+		}
+	}
+}

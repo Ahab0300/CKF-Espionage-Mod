@@ -1,0 +1,137 @@
+{
+	"Metadata": {
+		"#": "Buzzcut, Buzzcut Pro",
+		"StoryKey": "Buzzcut",
+		"StartingId": 781000004
+	},
+	"Item": [
+		{
+			"#": "Buzzcut, makes a buzzing background noise to obscure sounds",
+			"ItemTypeId": 781000004,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 1,
+			"PowerLevel": 1,
+			"Cost": 10,
+			"Talent": 781000004,
+			"Name": "Buzzcut",
+			"Desc": "A quiet buzzer which obscures other sounds."
+		},
+		{
+			"#": "Buzzcut Pro, a larger, longer-lasting version of Buzzcut",
+			"ItemTypeId": 781000005,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 2,
+			"Cost": 10,
+			"Talent": 781000005,
+			"Name": "Buzzcut Pro",
+			"Desc": "A quiet buzzer which obscures other sounds."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Buzzcut, derived from White-Noise talent (id 5004)",
+			"TalentId": 781000004,
+			"Type": 781000004,
+			"AltAdjust": 1,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 12,
+			"AoE": 8,
+			"Action": 22,
+			"AP": 20,
+			"TargetEffect": 781000004,
+			"TargetDuration": 2,
+			"Token": 15,
+			"TokenDuration": 2,
+			"Animation": 3,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/WhiteNoiseBuff",
+			"Icon": "talent_agent_whitenoise",
+			"StringKey": "Jobs.Talents.Active.Grenade.Buzzer",
+			"EventSFX": "CHAR_ITEM_GrenadeExplode",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "Vulnerable",
+			"Name": "Buzzcut"
+		},
+		{
+			"#": "Talent for Buzzcut Pro, derived from White-Noise talent (id 5004); longer range, larger AoE, and longer duration than Buzzcut",
+			"TalentId": 781000005,
+			"Type": 781000005,
+			"AltAdjust": 1,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Trigger": 0,
+			"Range": 15,
+			"AoE": 12,
+			"Action": 22,
+			"AP": 20,
+			"TargetEffect": 781000004,
+			"TargetDuration": 3,
+			"Token": 15,
+			"TokenDuration": 3,
+			"Animation": 3,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/WhiteNoiseBuff",
+			"Icon": "talent_agent_whitenoise",
+			"StringKey": "Jobs.Talents.Active.Grenade.Buzzer",
+			"EventSFX": "CHAR_ITEM_GrenadeExplode",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "Vulnerable"
+		}
+	],
+	"Effect": [
+		{
+			"#": "Effect for Buzzcut, derived from White-Noise effect (id 5004)",
+			"EffectId": 781000004,
+			"Class": 10,
+			"AttackDetect": -5,
+			"DetectReduce": -5,
+			"IconAsset": "talent_agent_whitenoise",
+			"Name": "Buzzcut"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Buzzcut",
+			"MissionLootId": 781000004,
+			"Group": 781000004,
+			"Type": 2,
+			"Key": 781000004,
+			"PowerLevel": 1,
+			"Rarity": 1,
+			"Name": "Item.Name.781000004",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for Buzzcut Pro",
+			"MissionLootId": 781000005,
+			"Group": 781000004,
+			"Type": 2,
+			"Key": 781000004,
+			"PowerLevel": 2,
+			"Rarity": 3,
+			"Name": "Item.Name.781000005",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Jobs.Talents.Active.Grenade.Buzzer": {
+				"zero": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}remainder of the Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
+				"one": "Toss up to {3}, creating a zone filled with faint buzzing {4} across {15}until end of next Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
+				"other": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}{0} Turns{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots."
+			}
+		}
+	}
+}

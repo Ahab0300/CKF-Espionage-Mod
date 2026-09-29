@@ -1,0 +1,60 @@
+# Espionage Mod files
+#
+# I have organized the mod files so that all the data associated with
+# an item, for example, are together in a single file, to make it easier
+# to create and debug specific gear, classes, characters, and stories
+
+# Items
+#
+# Each item file contains all the associated data for the following
+# tables, as needed, as well as the locale strings:
+#
+# Item, Talent, Effect, MissionLoot, MissionAdvantage, Blueprint
+
+Source_JSON/Item_Buzzcut.json
+Source_JSON/Item_Chameleon_Cloak.json
+Source_JSON/Item_Disguise.json
+Source_JSON/Item_E-Pulse.json
+Source_JSON/Item_Lockbreaker.json
+Source_JSON/Item_Mirrorwall.json
+Source_JSON/Item_Pepper_Mist.json
+Source_JSON/Item_Rattler.json
+Source_JSON/Item_Rest_In_Peace.json
+Source_JSON/Item_SecBuster.json
+Source_JSON/Item_Snapline.json
+Source_JSON/Item_Spoof.json
+Source_JSON/Item_Vanishing_Act.json
+
+
+# Contact Classes
+#
+# Each contact class file contains all the associated data for the following
+# tables as needed:
+#
+# ContactType, ContactService, Tag
+
+Source_JSON/ContactType_Intelligence_Officer.json
+
+
+# Contacts
+#
+# Each contact type file contains all the associated data for the following
+# tables as needed
+#
+# ContactBackstory, CosmeticGroup
+
+Source_JSON/Contact_Ferret.json
+#Source_JSON/Contacts/Rayburn.json
+#Source_JSON/Contacts/Livia.json
+
+
+# Stories
+#
+# Each contact type file contains all the associated data for the following
+# tables as needed:
+#
+# Legwork, StoryNode, StoryMatch, Block, BlockCondition, Dialog, DialogQuip, Tag, Talent
+
+Source_JSON/Legwork_PGen_LegSurveillance.json
+Source_JSON/Legwork_PGen_LegStakeout.json
+Source_JSON/Story_Intro_UNAIntOff.json

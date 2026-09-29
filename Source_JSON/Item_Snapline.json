@@ -1,0 +1,108 @@
+{
+	"Metadata": {
+		"#": "Snapline, Snapline 007",
+		"StoryKey": "Snapline",
+		"StartingId": 781000001
+	},
+	"Item": [
+		{
+			"#": "Snapline, a piton gun like those used by Batman and James Bond",
+			"ItemTypeId": 781000001,
+			"Class": 3,
+			"Asset": 16,
+			"Service": 781000001,
+			"Rarity": 2,
+			"PowerLevel": 3,
+			"Cost": 10,
+			"Talent": 781000001,
+			"Name": "Snapline",
+			"Desc": "Piton gun with a powerful retracting motor, capable of pulling the bearer to a target location extremely rapidly."
+		},
+		{
+			"#": "Snapline 007, a piton gun like those used by Batman and James Bond; long-range version Snapline",
+			"ItemTypeId": 781000002,
+			"Class": 3,
+			"Asset": 16,
+			"Service": 781000001,
+			"Rarity": 4,
+			"PowerLevel": 6,
+			"Cost": 10,
+			"Talent": 781000002,
+			"Name": "Snapline 007",
+			"Desc": "Piton gun with a powerful retracting motor, capable of pulling the bearer to a target location extremely rapidly."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Snapline; Derived from Glitch talent (id 5001)",
+			"TalentId": 781000001,
+			"Type": 781000001,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 7,
+			"Action": 26,
+			"AP": 20,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/MovingVFX_Shadow",
+			"Icon": "talent_agent_glitch",
+			"StringKey": "Job.Talents.Active.Snapline",
+			"EventSFX": "CHAR_TLNT_Movement",
+			"GroupSFX": "MovementType",
+			"TypeSFX": "Teleport",
+			"Name": "Snapline"
+		},
+		{
+			"#": "Talent for Snapline; Derived from Glitch talent (id 5001); Longer range than basic Snapline",
+			"TalentId": 781000002,
+			"Type": 781000002,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 12,
+			"Action": 26,
+			"AP": 20,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/MovingVFX_Shadow",
+			"Icon": "talent_agent_glitch",
+			"StringKey": "Job.Talents.Active.Snapline",
+			"EventSFX": "CHAR_TLNT_Movement",
+			"GroupSFX": "MovementType",
+			"TypeSFX": "Teleport",
+			"Name": "Snapline 007"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Snapline",
+			"MissionLootId": 781000001,
+			"Group": 781000001,
+			"Type": 2,
+			"Key": 781000001,
+			"PowerLevel": 3,
+			"Rarity": 2,
+			"Name": "Item.Name.781000001",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for Snapline 007",
+			"MissionLootId": 781000002,
+			"Group": 781000001,
+			"Type": 2,
+			"Key": 781000001,
+			"PowerLevel": 6,
+			"Rarity": 4,
+			"Name": "Item.Name.781000002",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Job.Talents.Active.Snapline": "Fire this piton gun at any point up to {3} and be pulled swiftly to the target point without triggering Overwatch, Security Devices, being seen or heard while moving and without generating any Recoil. Cannot fire through walls, and if using Snapline for the second time in a Turn, may generate Injury Time or Stress."
+		}
+	}
+}

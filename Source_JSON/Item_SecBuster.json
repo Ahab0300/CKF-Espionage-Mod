@@ -1,0 +1,64 @@
+{
+	"Metadata": {
+		"#": "SecBuster",
+		"StoryKey": "SecBuster",
+		"StartingId": 781000015
+	},
+	"Item": [
+		{
+			"#": "SecBuster, disables both Lvl 1 and Lvl 2 security devices",
+			"ItemTypeId": 781000015,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 5,
+			"Cost": 10,
+			"Talent": 781000015,
+			"Name": "SecBuster",
+			"Desc": "A security breaker that disables both Lvl 1 and Lvl 2 security devices."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for SecBuster, based on Crashkit talent (id 1200), removing the FilterTypeId",
+			"TalentId": 781000015,
+			"Type": 781000015,
+			"Level": 1,
+			"Cost": 1,
+			"Active": 1,
+			"Range": 12,
+			"Action": 1,
+			"AP": 20,
+			"TargetDuration": 2,
+			"Charges": 1,
+			"TargetType": "DEVICE",
+			"Vfx": "Talents/PurpleBuffV2",
+			"Icon": "talent_vanguard_jamkit",
+			"StringKey": "Job.Talents.Active.SecurityDeviceAny",
+			"EventSFX": "CHAR_TLNT_Tech",
+			"GroupSFX": "TechType",
+			"TypeSFX": "Security",
+			"Name": "SecBuster"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for SecBuster",
+			"MissionLootId": 781000015,
+			"Group": 781000015,
+			"Type": 2,
+			"Key": 781000015,
+			"PowerLevel": 5,
+			"Rarity": 3,
+			"Name": "Item.Name.781000015",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Job.Talents.Active.SecurityDeviceAny": "Disable a Level 1 or Level 2 Security Device within {3} for {15}next {0} Turns{16}."
+		}
+	}
+}

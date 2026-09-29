@@ -1,0 +1,65 @@
+{
+	"Metadata": {
+		"#": "Rest-In-Peace",
+		"StoryKey": "RestInPeace",
+		"StartingId": 781000018
+	},
+	"Item": [
+		{
+			"#": "Rest-in-Peace, a device to disable body timers in an Area of Effect",
+			"ItemTypeId": 781000018,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 4,
+			"PowerLevel": 8,
+			"Cost": 10,
+			"Talent": 781000018,
+			"Name": "Rest-in-Peace",
+			"Desc": "Device to disable body timers withn an Area of Effect."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Rest-in-Peace, derived from Faked Vitals talent (id 13023), with an AoE",
+			"TalentId": 781000018,
+			"Type": 781000018,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 12,
+			"AoE": 8,
+			"Action": 3,
+			"AP": 20,
+			"FilterTypeId": 12,
+			"Charges": 1,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/RedBuffV2",
+			"Icon": "talent_vanguard_bodybag",
+			"StringKey": "Jobs.Talents.Active.Grenade.RIP",
+			"EventSFX": "CHAR_TLNT_Tech",
+			"GroupSFX": "TechType",
+			"TypeSFX": "Predictive",
+			"Name": "Rest-in-Peace"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Rest-in-Peace",
+			"MissionLootId": 781000018,
+			"Group": 781000018,
+			"Type": 2,
+			"Key": 781000018,
+			"PowerLevel": 8,
+			"Rarity": 4,
+			"Name": "Item.Name.781000018",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Jobs.Talents.Active.Grenade.RIP": "Toss up to {3}, setting off a scramble signal. The Body Timers of any dead enemies within {4} will be canceled. No one will come looking for these lost agents but the bodies may still be discovered."
+		}
+	}
+}

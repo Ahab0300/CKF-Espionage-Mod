@@ -1,0 +1,114 @@
+{
+	"Metadata": {
+		"#": "Spoof Lite, Spoof Max",
+		"StoryKey": "Spoof",
+		"StartingId": 781000011
+	},
+	"Item": [
+		{
+			"#": "Spoof Lite, steals the bio-signal of a guard",
+			"ItemTypeId": 781000011,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 1,
+			"PowerLevel": 2,
+			"Cost": 10,
+			"Talent": 781000011,
+			"Name": "Spoof Lite",
+			"Desc": "A device to steal the bio-signal of a guard, spoofing the Identification Friend or Foe system on security devices."
+		},
+		{
+			"#": "Spoof Max, steals the bio-signal of a guard",
+			"ItemTypeId": 781000012,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 3,
+			"Cost": 10,
+			"Talent": 781000012,
+			"Name": "Spoof Max",
+			"Desc": "Steals the bio-signal of a guard, spoofing the Identification Friend or Foe system on security devices."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Spoof Lite, derived from Signal Grift talent (id 5005), targeting living enemies instead of dead",
+			"TalentId": 781000011,
+			"Type": 781000011,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 12,
+			"Action": 19,
+			"AP": 20,
+			"SelfEffect": 5005,
+			"SelfDuration": 2,
+			"Charges": 2,
+			"TargetType": "ENEMY",
+			"Vfx": "Talents/SignalGrift",
+			"SelfVfx": "Talents/SignalGrift",
+			"Icon": "talent_agent_signalgraft",
+			"StringKey": "Job.Talents.Active.Enemy.StealIFF",
+			"EventSFX": "CHAR_ITEM_SecurityUse",
+			"GroupSFX": "TechType",
+			"TypeSFX": "Terminal",
+			"Name": "Spoof Lite"
+		},
+		{
+			"#": "Talent for Spoof Max, derived from Signal Grift talent (id 5005), targeting living enemies instead of dead; longer range and duration than Spoof Lite",
+			"TalentId": 781000012,
+			"Type": 781000011,
+			"Level": 1,
+			"Cost": 1,
+			"Active": 1,
+			"Range": 15,
+			"Action": 19,
+			"AP": 20,
+			"SelfEffect": 5005,
+			"SelfDuration": 3,
+			"Charges": 2,
+			"TargetType": "ENEMY",
+			"Vfx": "Talents/SignalGrift",
+			"SelfVfx": "Talents/SignalGrift",
+			"Icon": "talent_agent_signalgraft",
+			"StringKey": "Job.Talents.Active.Enemy.StealIFF",
+			"EventSFX": "CHAR_ITEM_SecurityUse",
+			"GroupSFX": "TechType",
+			"TypeSFX": "Terminal",
+			"Name": "Spoof Max"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Spoof Lite",
+			"MissionLootId": 781000011,
+			"Group": 781000011,
+			"Type": 2,
+			"Key": 781000011,
+			"PowerLevel": 2,
+			"Rarity": 1,
+			"Name": "Item.Name.781000011",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for Spoof Max",
+			"MissionLootId": 781000012,
+			"Group": 781000011,
+			"Type": 2,
+			"Key": 781000011,
+			"PowerLevel": 3,
+			"Rarity": 3,
+			"Name": "Item.Name.781000012",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Job.Talents.Active.Enemy.StealIFF": "Steal the bio-signal from an enemy within {3}. Grifted signal allows you to avoid triggering all Security Devices except visual systems (Cameras) for {15}next {0} Turns{16}."
+		}
+	}
+}

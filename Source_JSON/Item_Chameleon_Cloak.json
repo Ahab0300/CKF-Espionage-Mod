@@ -1,0 +1,72 @@
+{
+	"Metadata": {
+		"#": "Chameleon Cloak",
+		"StoryKey": "ChameleonCloak",
+		"StartingId": 781000003
+	},
+	"Item": [
+		{
+			"#": "Chameleon Cloak, an invisibility cloak (only while motionless)",
+			"ItemTypeId": 781000003,
+			"Class": 3,
+			"Asset": 1000,
+			"Service": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 4,
+			"Cost": 10,
+			"Talent": 781000003,
+			"Name": "Chameleon Cloak",
+			"Desc": "A nano-infused cloak which blends with the environment to provide temporary invisibility while motionless."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Chameleon Cloak; Derived from Blend talent (id 1214)",
+			"TalentId": 781000003,
+			"Type": 781000003,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"AP": 20,
+			"SelfEffect": 781000003,
+			"SelfDuration": 3,
+			"Charges": 1,
+			"TargetType": "SELF",
+			"SelfVfx": "Talents/WhiteBuff",
+			"Icon": "talent_vanguard_blend",
+			"StringKey": "Job.Talents.Active.HideBuff",
+			"EventSFX": "CHAR_TLNT_Buff",
+			"GroupSFX": "BuffType",
+			"TypeSFX": "Invisible",
+			"Name": "Chameleon Cloak"
+		}
+	],
+	"Effect": [
+		{
+			"#": "Effect for Chameleon Cloak, derived from Blend effect (id 1320).",
+			"EffectId": 781000003,
+			"Class": 1,
+			"ClearType": 4,
+			"CritRateStealth": 50,
+			"SpecialCode": 27,
+			"SpecialValue": 1,
+			"IconAsset": "talent_vanguard_blend",
+			"VFX": "Talents/AuraChargeBlue",
+			"Name": "Chameleon Cloak"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Chameleon Cloak",
+			"MissionLootId": 781000003,
+			"Group": 781000003,
+			"Type": 2,
+			"Key": 781000003,
+			"PowerLevel": 4,
+			"Rarity": 3,
+			"Name": "Item.Name.781000003",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	]
+}

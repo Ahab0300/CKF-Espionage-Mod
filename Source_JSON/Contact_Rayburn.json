@@ -1,0 +1,211 @@
+{
+	"Metadata": {
+		"#": "Billy Rayburn, an Matsumoto Intelligence Officer",
+		"StoryKey": "Rayburn",
+		"StartingId": 781000003
+	},
+	"ContactBackstory": [
+		{
+			"#": "Rayburn, a Matsumoto Intelligence Officer",
+			"ContactBackstoryId": 781000003,
+			"Group": 781000003,
+			"NewGame": 0,
+			"ContactType": 781000001,
+			"Status": 1,
+			"InfluenceScore": 1,
+			"PowerLevel": 3,
+			"Favor": 0,
+			"Trust": 0,
+			"Cosmetic": 781000101,
+			"ServiceGroupId1": 0,
+			"ServiceLevel1": 0,
+			"ServiceGroupId2": 0,
+			"ServiceLevel2": 0,
+			"ServiceGroupId3": 0,
+			"ServiceLevel3": 0,
+			"Weight": 1,
+			"Trait1A": "ConTrait_Uninspiring",
+			"Trait1B": "ConTrait_Bellicose",
+			"Trait1C": "",
+			"Trait1D": "",
+			"Trait1E": "",
+			"Trait1F": "",
+			"Trait2A": "ConTrait_Influential",
+			"Trait2B": "ConTrait_Calculating",
+			"Trait2C": "",
+			"Trait2D": "",
+			"Trait2E": "",
+			"Trait2F": "",
+			"ContactLink": "NPC_Rayburn",
+			"FactionTag": "Faction_Matsumoto",
+			"BlockGroup": "",
+			"Tag1": "Faction_Lawful+Faction_Matsumoto",
+			"Tag2": "Tag_Ambitious",
+			"Tag3": "Tag_KnightHorizonSiege",
+			"TagID": "PersonID_NPC_Rayburn",
+			"TagRandom1": "",
+			"TagRandom2": "",
+			"Codename": "",
+			"Location": "Matsumoto Security Complex",
+			"GivenName": "Billy",
+			"Surname": "Rayburn"
+		}
+	],
+	"CosmeticGroup": [
+		{
+			"GroupID": 781000101,
+			"Items": [
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 1,
+					"CosmeticValue2": 118,
+					"CosmeticValue": 118
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 103,
+					"CosmeticValue2": 200,
+					"CosmeticValue": 200
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 107,
+					"CosmeticValue2": 051255255,
+					"CosmeticValue": 051255255
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 108,
+					"CosmeticValue2": 178255102,
+					"CosmeticValue": 178255102
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 109,
+					"CosmeticValue2": 000102204,
+					"CosmeticValue": 000102204
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 2,
+					"CosmeticValue2": 3121,
+					"CosmeticValue": 3121
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 104,
+					"CosmeticValue2": 199150129,
+					"CosmeticValue": 199150129
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 128,
+					"CosmeticValue2": 255153153,
+					"CosmeticValue": 255153153
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 300,
+					"CosmeticValue2": 200,
+					"CosmeticValue": 200
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 301,
+					"CosmeticValue2": 200,
+					"CosmeticValue": 200
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 303,
+					"CosmeticValue2": 150,
+					"CosmeticValue": 150
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 304,
+					"CosmeticValue2": 150,
+					"CosmeticValue": 150
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 306,
+					"CosmeticValue2": 200,
+					"CosmeticValue": 200
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 3,
+					"CosmeticValue2": 21029,
+					"CosmeticValue": 2042
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 125,
+					"CosmeticValue2": 102102000,
+					"CosmeticValue": 102102000
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 126,
+					"CosmeticValue2": 204204000,
+					"CosmeticValue": 204204000
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 26,
+					"CosmeticValue2": 20104,
+					"CosmeticValue": 20104
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 210,
+					"CosmeticValue2": 153153000,
+					"CosmeticValue": 153153000
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 28,
+					"CosmeticValue2": 20201,
+					"CosmeticValue": 20201
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 211,
+					"CosmeticValue2": 102102000,
+					"CosmeticValue": 102102000
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 20,
+					"CosmeticValue2": 5005,
+					"CosmeticValue": 5005
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 105,
+					"CosmeticValue2": 000204102,
+					"CosmeticValue": 000204102
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 63,
+					"CosmeticValue2": 1310,
+					"CosmeticValue": 1310
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 620,
+					"CosmeticValue2": 000153153,
+					"CosmeticValue": 000153153
+				},
+				{
+					"RandomGroup": 781000101,
+					"CosmeticFieldType": 621,
+					"CosmeticValue2": 255255000,
+					"CosmeticValue": 255255000
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,597 @@
+{
+    "Metadata": {"#": "Surveillance legwork"},
+    "Legwork": [
+        {
+            "SQL": "insert",
+            "JsonId": 781000101,
+            "TagChance1": 80,
+            "TagChance2": 70,
+            "TagChance3": 55,
+            "TagChance4": "",
+            "TagChance5": "",
+            "TagReq1": "Investigtion",
+            "TagReq2": "Job_Stealth",
+            "TagReq3": "Undercover",
+            "TagReq4": "",
+            "TagReq5": "",
+            "TagNot1": "",
+            "TagNot2": "",
+            "TagNot3": "",
+            "TagMatch": "LegMem_LegSurveillance",
+            "ActorId": "PLG_LegSurveillance",
+            "StoryNodeId": "SN_LegSurveillance_Legwork",
+            "SuccessType": "INFLUENCE_FAVOR",
+            "FailType": "HEAT_20",
+            "ContactActorId": "NCT_LegSurveillance",
+            "BlockTalkOn": "",
+            "BlockSuccess": "B_LegSurveillance_Win",
+            "BlockFail": "B_LegSurveillance_Loss",
+            "BlockExpires": "",
+            "PostLink": "",
+            "PostState": "",
+            "QuipType": "",
+            "InterpolateActorId": "NCT_LegSurveillance",
+            "InterpolateId": "",
+            "Title": "Tail of a Rat",
+            "Desc": "{1} needs us to tail someone for a few days. When the surveillance is complete, {6} can decide how to proceed.",
+            "Win": "Quietly track the target, following at a safe distance, and record what they do.",
+            "Fail": "You've been 'made' - the target spots you and takes evasive maneuvers. They will see if you continue following."
+        }
+    ],
+    "StoryNode": [
+        {
+            "GroupId": "SN_LegSurveillance",
+            "Items": [
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Start",
+                    "ExpirationBlock": "B_LegSurveillance_Start",
+                    "ExpirationTurns": 20,
+                    "ExpirationRandom": 16
+                },
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Delayed",
+                    "ExpirationBlock": "B_LegSurveillance_DelayForce",
+                    "ExpirationTurns": 20,
+                    "ExpirationRandom": 16
+                },
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Legwork",
+                    "StoryNodeType": "Legwork",
+                    "ActorId": "PLG_LegSurveillance",
+                    "InterpolateActorId": "NCT_LegSurveillance",
+                    "ExpirationTurns": 28,
+                    "Text": "{0} is conducting surveillance of a target for {2}."
+                },
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Cleanup",
+                    "ExpirationBlock": "B_LegSurveillance_Cleanup",
+                    "ExpirationTurns": 2
+                },
+                {
+                    "StoryNodeId": "SN_LegSurveillance_DelayRestart",
+                    "ExpirationBlock": "B_LegSurveillance_DelayRestart",
+                    "ExpirationTurns": 84,
+                    "ExpirationRandom": 28
+                }
+            ]
+        }
+    ],
+    "StoryMatch": [
+        {
+            "GroupId": "Match_LegSurveillance",
+            "Items": [
+                {
+                    "Status": 1,
+                    "PairRule": "OneOfMany",
+                    "TagReq1": "NCP_Meta_Espionage",
+                    "TagMatch": "Mem_LegSurveillance",
+                    "ActorId": "NCT_LegSurveillance",
+                    "PostState": "SET_1_S_LegSurveillance_Type",
+                    "DebugName": "surveillance for spy"
+                },
+                {
+                    "Status": 1,
+                    "PairRule": "OneOfMany",
+                    "TagReq1": "NPC_Detective",
+                    "TagMatch": "Mem_LegSurveillance",
+                    "ActorId": "NCT_LegSurveillance",
+                    "PostState": "SET_2_S_LegSurveillance_Type",
+                    "DebugName": "surveillance for detective"
+                },
+                {
+                    "Status": 1,
+                    "PairRule": "OneOfMany",
+                    "TagReq1": "Tag_SuspectsARat",
+                    "TagMatch": "Mem_LegSurveillance",
+                    "ActorId": "NCT_LegSurveillance",
+                    "PostState": "SET_3_S_LegSurveillance_Type",
+                    "DebugName": "surveillance for suspects a rat"
+                },
+                {
+                    "Status": 1,
+                    "PairRule": "OneOfMany",
+                    "TagReq1": "Tag_HatesTraitors",
+                    "TagMatch": "Mem_LegSurveillance",
+                    "ActorId": "NCT_LegSurveillance",
+                    "PostState": "SET_4_S_LegSurveillance_Type",
+                    "DebugName": "surveillance for hates traitors"
+                },
+                {
+                    "Status": 1,
+                    "PairRule": "OneOfMany",
+                    "TagReq1": "Tag_InternalAffairs",
+                    "TagMatch": "Mem_LegSurveillance",
+                    "ActorId": "NCT_LegSurveillance",
+                    "PostState": "SET_5_S_LegSurveillance_Type",
+                    "DebugName": "surveillance for internal affairs"
+                }
+            ]
+        }
+    ],
+    "Block": [
+        {
+            "GroupId": "B_LegSurveillance",
+            "Items": [
+                {
+                    "Weight": 10,
+                    "PreState1": "NOT_S_LegSurveillance_DelayRestart",
+                    "PostState1": "ADD_S_LegSurveillance_DelayRestart",
+                    "StoryNode1": "ADD_SN_LegSurveillance_Start",
+                    "EventId": "Match_LegSurveillance",
+                    "EventType": "ProcGenLegwork",
+                    "Text": "Proc-Legwork: Surveillance"
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_Start",
+            "Items": [
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Start",
+                    "ActorId": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "StoryNode1": "DEL_SN_LegSurveillance_Start",
+                    "Dialog": "D_LegSurveillance_Intro",
+                    "EventId": "B_LegSurveillance_Choices",
+                    "EventType": "Choice",
+                    "Text": "I need to put a watch on a person of interest, <style=DialogTerm>Legwork</style> doing some old-fashioned surveillance."
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_StartDelayed",
+            "Items": [
+                {
+                    "StoryNodeId": "SN_LegSurveillance_Delayed",
+                    "ActorId": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "StoryNode1": "DEL_SN_LegSurveillance_Delayed",
+                    "Dialog": "D_LegSurveillance_Intro",
+                    "EventId": "B_LegSurveillance_Choices",
+                    "EventType": "Choice",
+                    "Text": "The longer this waits, the more time they have to get suspicious. Don't wait too long."
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_DelayForce",
+            "Items": [
+                {
+                    "PostState1": "ADD_S_LegSurveillance_DelayForce",
+                    "StoryNode1": "DEL_SN_LegSurveillance_Delayed",
+                    "Dialog": "D_LegSurveillance_Intro",
+                    "EventId": "B_LegSurveillance_Choices",
+                    "EventType": "Choice"
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_Choices",
+            "Items": [
+                {
+                    "ActorId": "PCP_Knight",
+                    "PreState1": "NOT_S_LegSurveillance_Chat1",
+                    "PostState1": "ADD_S_LegSurveillance_Chat1",
+                    "Dialog": "D_LegSurveillance_Chat1",
+                    "EventId": "B_LegSurveillance_Choices",
+                    "EventType": "Choice",
+                    "Text": "What countersurveillance measures will we be facing?"
+                },
+                {
+                    "ActorId": "PCP_Knight",
+                    "PreState1": "NOT_S_LegSurveillance_Chat2",
+                    "PostState1": "ADD_S_LegSurveillance_Chat2",
+                    "Dialog": "D_LegSurveillance_Chat2",
+                    "EventId": "B_LegSurveillance_Choices",
+                    "EventType": "Choice",
+                    "Text": "How long do you want the target watched?"
+                },
+                {
+                    "ChoiceMeta": "Legwork",
+                    "StoryNode1": "DEL_SN_LegSurveillance_Delayed",
+                    "Dialog": "D_LegSurveillance_LegStart",
+                    "EventId": "SN_LegSurveillance_Legwork",
+                    "EventType": "Legwork",
+                    "Text": "We've got people who can keep a quiet surveillance. Send us the details."
+                },
+                {
+                    "ActorId": "PCP_Knight",
+                    "Quip": "ProcLeg_Generic_Delay",
+                    "ChoiceMeta": "Delay",
+                    "PreState1": "NOT_S_LegSurveillance_DelayForce",
+                    "StoryNode1": "ADD_SN_LegSurveillance_Delayed",
+                    "Dialog": "D_LegSurveillance_Delayed",
+                    "Text": "{11}"
+                },
+                {
+                    "ActorId": "PCP_Knight",
+                    "InterpolateActorId": "NCT_LegSurveillance",
+                    "ChoiceMeta": "No",
+                    "StoryNode1": "ADD_SN_LegSurveillance_Cleanup",
+                    "StoryNode2": "DEL_SN_LegSurveillance_Delayed",
+                    "Dialog": "D_LegSurveillance_Reject",
+                    "Text": "I'm afraid we don't have anybody who can do a week-long surveillance right now."
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_Win",
+            "Items": [
+                {
+                    "StoryNode1": "ADD_SN_LegSurveillance_Cleanup",
+                    "Dialog": "D_LegSurveillance_Win"
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_Loss",
+            "Items": [
+                {
+                    "PostConditionGroup": "Post_LegSurveillance_Loss",
+                    "StoryNode1": "ADD_SN_LegSurveillance_Cleanup",
+                    "Dialog": "D_LegSurveillance_Loss"
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_Cleanup",
+            "Items": [
+                {
+                    "PostConditionGroup": "Post_LegSurveillance_Cleanup",
+                    "PostState1": "DEL_S_LegSurveillance_Chat1",
+                    "PostState2": "DEL_S_LegSurveillance_Chat2",
+                    "StoryNode1": "ADD_SN_LegSurveillance_DelayRestart"
+                }
+            ]
+        },
+        {
+            "GroupId": "B_LegSurveillance_DelayRestart",
+            "Items": [
+                {"PostState1": "DEL_S_LegSurveillance_DelayRestart"}
+            ]
+        }
+    ],
+    "BlockCondition": [
+        {
+            "GroupId": "Post_LegSurveillance_Cleanup",
+            "Items": [
+                {
+                    "ConditionType": "TempStoryId",
+                    "ActorId": "NCT_LegSurveillance",
+                    "OptionId": -1
+                },
+                {
+                    "ConditionType": "Tag",
+                    "ActorId": "PTG_LegMem_LegSurveillance",
+                    "ConditionKey": "DEL_LegMem_LegSurveillance"
+                }
+            ]
+        },
+        {
+            "GroupId": "Post_LegSurveillance_Loss",
+            "Items": [
+                {
+                    "ConditionType": "ContactMeta",
+                    "ActorId": "NCT_LegSurveillance",
+                    "ConditionValue": 1,
+                    "OptionId": 1
+                }
+            ]
+        }
+    ],
+    "Dialog": [
+        {
+            "GroupId": "D_LegSurveillance_Intro",
+            "Items": [
+                {
+                    "Actor": "PCP_Knight",
+                    "Target": "NCT_LegSurveillance",
+                    "Text": "Surveillance is tricky, {1}. If they spot you, you usually lose your chance to keep following."
+                },
+                {
+                    "Actor": "PCP_Face",
+                    "Side": "R",
+                    "Text": "The target would be on the alert after that. They would spot you if you showed up again."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Target": "PCP_Knight",
+                    "Side": "R",
+                    "Text": "Yes, it's very tricky, which is why I'm coming to you, {1}."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_1_S_LegSurveillance_Type",
+                    "Text": "This is a person of interest, a potential asset we may cultivate."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_2_S_LegSurveillance_Type",
+                    "Text": "My investigation points to this suspect, but I want to go after whoever they are working with."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_3_S_LegSurveillance_Type",
+                    "Text": "They may be a rat and I want to sniff them out."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_4_S_LegSurveillance_Type",
+                    "Text": "I think they are a traitor but I need evidence."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_5_S_LegSurveillance_Type",
+                    "Text": "My internal investigation has been very quiet, but I can't use anyone they might recognize."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "I want to know what this person is doing, where they are going, who they are meeting."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_1_S_LegSurveillance_Type",
+                    "Text": "The target should not expect anything, but don't get careless."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_2_S_LegSurveillance_Type",
+                    "Text": "The suspect may be cautious, so be careful."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_3_S_LegSurveillance_Type",
+                    "Text": "Be careful, I don't want the rat scurrying down a hole."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_4_S_LegSurveillance_Type",
+                    "Text": "I will keep up appearances while you gather the evidence."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_5_S_LegSurveillance_Type",
+                    "Text": "The investigation is going well, so don't mess it up by being spotted."
+                }
+            ]
+        },
+        {
+            "GroupId": "Dialog.D_LegSurveillance_LegStart",
+            "Items": [
+                {
+                    "Actor": "PLG_LegSurveillance",
+                    "Side": "R",
+                    "Text": "I hate surveillance - you have to be on your toes for days."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "Just follow them and pay attention."
+                },
+                {
+                    "Actor": "PLG_LegSurveillance",
+                    "Side": "R",
+                    "Text": "Can I wear a disguise? Where's my trenchcoat?"
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "Remember this has to be covert. Just act normal and don't let them spot you."
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Chat1",
+            "Items": [
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_1_S_LegSurveillance_Type",
+                    "Text": "They are a mid-level asset, no bodyguards, only modest security protocols."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_2_S_LegSurveillance_Type",
+                    "Text": "It's just a lowlife with connections. It shouldn't be a problem."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_3_S_LegSurveillance_Type",
+                    "Text": "A rat may have some cunning, but they're just a rat."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_4_S_LegSurveillance_Type",
+                    "Text": "They don't have any special training, if that's what you are asking."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_5_S_LegSurveillance_Type",
+                    "Text": "They're just a cog in the wheel, they should not have anything special."
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Chat2",
+            "Items": [
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "A week should be enough to get the information I need."
+                },
+                {
+                    "Actor": "PCP_Face",
+                    "Side": "R",
+                    "Text": "That's a long time to avoid being spotted. What if we are 'made' and they notice the tail?"
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "You'll have to give up then. They will be watching for you after that, so don't let it happen."
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Delayed",
+            "Items": [
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Target": "PCP_Knight",
+                    "Side": "R",
+                    "Quip": "ProcLeg_Generic_DelayDialog",
+                    "Text": "{11}"
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Reject",
+            "Items": [
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Target": "PCP_Knight",
+                    "Side": "R",
+                    "Quip": "ProcLeg_Generic_RejectDialog",
+                    "Text": "{11}"
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Win",
+            "Items": [
+                {
+                    "Actor": "PTG_LegMem_LegSurveillance",
+                    "Target": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "That went smooth as silk. Here's the surveillance observations you wanted."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_1_S_LegSurveillance_Type",
+                    "Text": "Thank you, this will help us figure out how to handle this asset."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_2_S_LegSurveillance_Type",
+                    "Text": "Good. We'll prepare to move in on the suspects."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_3_S_LegSurveillance_Type",
+                    "Text": "The little rat will get what's coming for them."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_4_S_LegSurveillance_Type",
+                    "Text": "I'll handle it from here. Thank you."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "InterpolateId": "EQL_5_S_LegSurveillance_Type",
+                    "Text": "This will help our investigation a lot."
+                },
+                {
+                    "Actor": "NAR_",
+                    "Target": "NCT_LegSurveillance",
+                    "Quip": "Generic_Legwork_InfluenceAndFavor",
+                    "Text": "{11}"
+                }
+            ]
+        },
+        {
+            "GroupId": "D_LegSurveillance_Loss",
+            "Items": [
+                {
+                    "Actor": "PCP_Face",
+                    "Side": "R",
+                    "Target": "PTG_LegMem_LegSurveillance",
+                    "Text": "{1} is back but you'd better come talk to {4}."
+                },
+                {
+                    "Actor": "PCP_Knight",
+                    "Text": "What happened out on the surveillance?"
+                },
+                {
+                    "Actor": "PTG_LegMem_LegSurveillance",
+                    "Side": "R",
+                    "Quip": "ProcLeg_LegSurveillance_Loss1",
+                    "Text": "{11}"
+                },
+                {
+                    "Actor": "PTG_LegMem_LegSurveillance",
+                    "Side": "R",
+                    "Text": "They spotted me and slipped away. There was no point continuing the tail."
+                },
+                {
+                    "Actor": "NCT_LegSurveillance",
+                    "Side": "R",
+                    "Text": "I told you to be careful! This will make things harder - the Heat is on."
+                },
+                {
+                    "Actor": "NAR_",
+                    "Target": "PTG_LegMem_LegSurveillance",
+                    "Text": "We have gained <style=DialogTerm>+20% Heat</style> for failing this <style=DialogTerm>Legwork</style>."
+                }
+            ]
+        }
+    ],
+    "DialogQuip": [
+        {
+            "GroupId": "ProcLeg_LegSurveillance_Loss1",
+            "Items": [
+                {"Text": "I thought I was keeping far enough back, but I must have slipped up."},
+                {"Text": "The target was better trained than you led me to believe! They know some tradecraft."},
+                {"Text": "It was a fluke. Some chummers got into a drunken fight in front of me and drew attention."}
+            ]
+        }
+    ],
+    "Tag": [
+        {
+            "TagClass": "Hidden",
+            "TagId": "Mem_LegSurveillance"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "LegMem_LegSurveillance"
+        }
+    ]
+}

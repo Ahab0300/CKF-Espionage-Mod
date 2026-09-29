@@ -1,0 +1,60 @@
+{
+    "Metadata": {"#": "Introduction of UNA Intelligence Officer"},
+	"Block": [
+		{
+			"GroupId": "B_Intro_UNAIntOff",
+			"Items": [
+				{
+					"Weight": 20,
+					"PreState1": "NOT_Intro_UNAIntOff",
+					"PostConditionGroup": "Post_Intro_UNAIntOff",
+					"PostState1": "ADD_Intro_UNAIntOff",
+					"EventId": "B_Intro_UNAIntOff_Dialog",
+					"EventType": "Group",
+					"Text": "Introduction to UNA Intelligence Officer"
+				},
+				{
+					"Dialog": "D_Intro_UNAIntOff",
+					"EventId": "B_Intro_UNAIntOff_Dialog",
+					"EventType": "Group",
+					"Text": ""
+				}
+			]
+		}
+	],
+	"BlockCondition": [
+		{
+			"GroupId": "Post_Intro_UNAIntOff",
+			"Items": [
+				{
+					"ConditionType": "AddCharacter",
+					"ActorId": "NCT_LegSurveillance",
+					"Value1": -1,
+					"Value2": 781000001
+				}
+			]
+		}
+	],
+	"Dialog": [
+		{
+			"GroupId": "D_Intro_UNAIntOff",
+			"Items": [
+				{
+					"Actor": "PCP_Face",
+					"Side": "R",
+					"InterpolateId": "NCP_Ferret",
+					"Text": "Let me introduce {1}, our latest connect and a {2}."
+				},
+				{
+					"Actor": "NCP_Ferret",
+					"Side": "R",
+					"Text": "Whether for espionage or a quiet heist, I have the tools that can help you on the job."
+				},
+				{
+					"Actor": "NAR_",
+					"Text": "We can find {2} {1} in our Contact list to check out what additional services and offerings they may be able to offer."
+				}
+			]
+		}
+	]
+}

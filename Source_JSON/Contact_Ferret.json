@@ -1,0 +1,163 @@
+		{
+	"Metadata": {
+		"#": "Ferret, an Intelligence Officer",
+		"StoryKey": "Ferret",
+		"StartingId": 781000001
+	},
+	"ContactBackstory": [
+		{
+			"#": "Ferret, a UNA Intelligence Officer",
+			"ContactBackstoryId": 781000001,
+			"Group": 781000001,
+			"NewGame": 0,
+			"ContactType": 781000001,
+			"Status": 1,
+			"InfluenceScore": 1,
+			"PowerLevel": 2,
+			"Favor": 0,
+			"Trust": 22,
+			"Cosmetic": 781000001,
+			"ServiceGroupId1": 0,
+			"ServiceLevel1": 0,
+			"ServiceGroupId2": 0,
+			"ServiceLevel2": 0,
+			"ServiceGroupId3": 0,
+			"ServiceLevel3": 0,
+			"Weight": 1,
+			"Trait1A": "ConTrait_Skeptical",
+			"Trait1B": "ConTrait_LowTemp",
+			"Trait1C": "",
+			"Trait1D": "",
+			"Trait1E": "",
+			"Trait1F": "",
+			"Trait2A": "ConTrait_DetailOriented",
+			"Trait2B": "ConTrait_TightLipped",
+			"Trait2C": "",
+			"Trait2D": "",
+			"Trait2E": "",
+			"Trait2F": "",
+			"ContactLink": "NPC_Ferret",
+			"FactionTag": "Faction_UNA",
+			"BlockGroup": "",
+			"Tag1": "Faction_Lawful+Faction_UNA",
+			"Tag2": "Tag_ConspiracyTheorist",
+			"Tag3": "Tag_LaunchPadConnections",
+			"TagID": "PersonID_NPC_Ferret",
+			"TagRandom1": "",
+			"TagRandom2": "",
+			"Codename": "Ferret",
+			"Location": "Somewhere, Downtown",
+			"GivenName": "",
+			"Surname": ""
+		}
+	],
+	"CosmeticGroup": [
+		{
+			"GroupID": 781000001,
+			"Items": [
+				{
+					"Random": 781000001,
+					"FieldType": 1,
+					"Value2": 112,
+					"Value": 112
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 107,
+					"Value2": 153076000,
+					"Value": 153076000
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 108,
+					"Value2": 32032032,
+					"Value": 32032032
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 109,
+					"Value2": 255128000,
+					"Value": 255128000
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 2,
+					"Value2": 3111,
+					"Value": 3111
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 104,
+					"Value2": 210153108,
+					"Value": 210153108
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 128,
+					"Value2": 102051000,
+					"Value": 102051000
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 3,
+					"Value2": 21003,
+					"Value": 21003
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 125,
+					"Value2": 136036036,
+					"Value": 136036036
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 126,
+					"Value2": 136036036,
+					"Value": 136036036
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 26,
+					"Value2": 20100,
+					"Value": 20100
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 210,
+					"Value2": 136036036,
+					"Value": 136036036
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 27,
+					"Value2": 20207,
+					"Value": 2204
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 211,
+					"Value2": 136036036,
+					"Value": 136036036
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 70,
+					"Value2": 1351,
+					"Value": 1351
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 10,
+					"Value2": 1023,
+					"Value": 1023
+				},
+				{
+					"Random": 781000001,
+					"FieldType": 116,
+					"Value2": 008008008,
+					"Value": 008008008
+				}
+			]
+		}
+	]
+}

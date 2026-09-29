@@ -1,0 +1,64 @@
+{
+	"Metadata": {
+		"#": "Rattler",
+		"StoryKey": "Rattler",
+		"StartingId": 781000010
+	},
+	"Item": [
+		{
+			"#": "Rattler, a noisemaker to lure enemies",
+			"ItemTypeId": 781000010,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 1,
+			"PowerLevel": 1,
+			"Cost": 10,
+			"Talent": 781000010,
+			"Name": "Rattler",
+			"Desc": "A noisemaker that lures enemies."  
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for Rattler, derived from Lure talent (id 1207)",
+			"TalentId": 781000010,
+			"Type": 781000010,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 15,
+			"AoE": 8,
+			"Action": 2,
+			"AP": 20,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": "Talents/PurpleBuffV2",
+			"Icon": "talent_vanguard_lure",
+			"StringKey": "Job.Talents.Active.SecuritySpotted.Rattler",
+			"EventSFX": "CHAR_TLNT_Tech",
+			"GroupSFX": "TechType",
+			"TypeSFX": "Predictive",
+			"Name": "Rattler"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for Rattler",
+			"MissionLootId": 781000010,
+			"Group": 781000010,
+			"Type": 2,
+			"Key": 781000008,
+			"PowerLevel": 1,
+			"Rarity": 1,
+			"Name": "Item.Name.781000010",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Job.Talents.Active.SecuritySpotted.Rattler": "Toss up to {3}, creating a distracting rattle. Any enemies within {4} of your chosen point will immediately become Suspicious, rotate toward it and move to investigate it on their next action."
+		}
+	}
+}

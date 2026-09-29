@@ -1,0 +1,169 @@
+{
+	"Metadata": {
+		"#": "Livia, an Intelligence Officer",
+		"StoryKey": "Livia",
+		"StartingId": 781000002
+	},
+	"ContactBackstory": [
+		{
+			"#": "Livia, a formerly retired Intelligence Officer and now independent operator",
+			"ContactBackstoryId": 781000002,
+			"Group": 781000002,
+			"NewGame": 0,
+			"ContactType": 781000001,
+			"Status": 1,
+			"InfluenceScore": 1,
+			"PowerLevel": 1,
+			"Favor": 0,
+			"Trust": 0,
+			"Cosmetic": 781000201,
+			"ServiceGroupId1": 0,
+			"ServiceLevel1": 0,
+			"ServiceGroupId2": 0,
+			"ServiceLevel2": 0,
+			"ServiceGroupId3": 0,
+			"ServiceLevel3": 0,
+			"Weight": 1,
+			"Trait1A": "ConTrait_Greedy",
+			"Trait1B": "ConTrait_Paranoid",
+			"Trait1C": "",
+			"Trait1D": "",
+			"Trait1E": "",
+			"Trait1F": "",
+			"Trait2A": "ConTrait_Brazen",
+			"Trait2B": "ConTrait_Collector",
+			"Trait2C": "",
+			"Trait2D": "",
+			"Trait2E": "",
+			"Trait2F": "",
+			"ContactLink": "NPC_Livia",
+			"FactionTag": "Faction_Indie",
+			"BlockGroup": "",
+			"Tag1": "Tag_OutOfRetirement",
+			"Tag2": "Tag_Networker",
+			"Tag3": "Tag_HiddenIdentity",
+			"TagID": "PersonID_NPC_Livia",
+			"TagRandom1": "",
+			"TagRandom2": "",
+			"Codename": "",
+			"Location": "",
+			"GivenName": "Livia",
+			"Surname": ""
+		}
+	],
+	"CosmeticGroup": [
+		{
+			"GroupID": 781000201,
+			"Items": [
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 1,
+					"CosmeticValue2": 6,
+					"CosmeticValue": 6
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 103,
+					"CosmeticValue2": 80,
+					"CosmeticValue": 80
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 107,
+					"CosmeticValue2": 204000000,
+					"CosmeticValue": 204000000
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 108,
+					"CosmeticValue2": 255153153,
+					"CosmeticValue": 255153153
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 109,
+					"CosmeticValue2": 000076153,
+					"CosmeticValue": 000076153
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 2,
+					"CosmeticValue2": 3123,
+					"CosmeticValue": 3123
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 104,
+					"CosmeticValue2": 153111095,
+					"CosmeticValue": 153111095
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 128,
+					"CosmeticValue2": 255153153,
+					"CosmeticValue": 255153153
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 3,
+					"CosmeticValue2": 21044,
+					"CosmeticValue": 2038
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 125,
+					"CosmeticValue2": 008008008,
+					"CosmeticValue": 008008008
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 126,
+					"CosmeticValue2": 008008008,
+					"CosmeticValue": 008008008
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 26,
+					"CosmeticValue2": 20103,
+					"CosmeticValue": 20103
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 210,
+					"CosmeticValue2": 008008008,
+					"CosmeticValue": 008008008
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 20,
+					"CosmeticValue2": 5001,
+					"CosmeticValue": 5001
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 105,
+					"CosmeticValue2": 000204000,
+					"CosmeticValue": 000204000
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 10,
+					"CosmeticValue2": 1005,
+					"CosmeticValue": 1005
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 116,
+					"CosmeticValue2": 160160160,
+					"CosmeticValue": 160160160
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 117,
+					"CosmeticValue2": 008008008,
+					"CosmeticValue": 008008008
+				}
+			]
+		}
+	]
+}

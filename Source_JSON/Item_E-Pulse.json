@@ -1,0 +1,182 @@
+{
+	"Metadata": {
+		"#": "E-Pulse, E-Burst, E-Storm",
+		"StoryKey": "EPulse",
+		"StartingId": 781000007
+	},
+	"Item": [
+		{
+			"#": "E-Pulse, an EMP grenade",
+			"ItemTypeId": 781000007,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 1,
+			"PowerLevel": 2,
+			"Cost": 10,
+			"Talent": 781000007,
+			"Name": "E-Pulse",
+			"Desc": "A grenade that produces an EMP, jamming both drones and comms."
+		},
+		{
+			"#": "E-Burst, a more powerful EMP grenade",
+			"ItemTypeId": 781000008,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 2,
+			"PowerLevel": 3,
+			"Cost": 10,
+			"Talent": 781000008,
+			"Name": "E-Burst",
+			"Desc": "A grenade that produces an EMP, jamming drones and knocking out comms."
+		},
+		{
+			"#": "E-Burst, an even more powerful EMP grenade",
+			"ItemTypeId": 781000009,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 781000001,
+			"Rarity": 3,
+			"PowerLevel": 4,
+			"Cost": 10,
+			"Talent": 781000009,
+			"Name": "E-Storm",
+			"Desc": "A grenade that produces an EMP, jamming drones and knocking out comms."
+		}
+	],
+	"Talent": [
+		{
+			"#": "Talent for E-Pulse, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004)",
+			"TalentId": 781000007,
+			"Type": 781000007,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 15,
+			"AoE": 4,
+			"Action": 3,
+			"AP": 20,
+			"TargetEffect": 781000007,
+			"TargetDuration": 2,
+			"Animation": 3,
+			"Charges": 4,
+			"TargetType": "FLOOR",
+			"Vfx": " Talents/RedBuffV2",
+			"Icon": "talent_knight_quantum_assault",
+			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "EMP",
+			"Name": "E-Pulse"
+		},
+		{
+			"#": "Talent for E-Burst, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004); larger AoE than E-Pulse but fewer charges",
+			"TalentId": 781000008,
+			"Type": 781000008,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 15,
+			"AoE": 8,
+			"Action": 3,
+			"AP": 20,
+			"TargetEffect": 781000007,
+			"TargetDuration": 2,
+			"Animation": 3,
+			"Charges": 2,
+			"TargetType": "FLOOR",
+			"Vfx": " Talents/RedBuffV2",
+			"Icon": "talent_knight_quantum_assault",
+			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"EventSFX": "CHAR_ITEM_GrenadeExplode",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "EMP",
+			"Name": "E-Burst"
+		},
+		{
+			"#": "Talent for E-Storm, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004); larger AoE than E-Burst but only 1 charge",
+			"TalentId": 781000009,
+			"Type": 781000009,
+			"Level": 1,
+			"Cost": 1,
+			"IsActive": 1,
+			"Range": 15,
+			"AoE": 12,
+			"Action": 3,
+			"AP": 20,
+			"TargetEffect": 781000007,
+			"TargetDuration": 3,
+			"Animation": 3,
+			"Charges": 1,
+			"TargetType": "FLOOR",
+			"Vfx": " Talents/RedBuffV2",
+			"Icon": "talent_knight_quantum_assault",
+			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"EventSFX": "CHAR_ITEM_GrenadeExplode",
+			"GroupSFX": "GrenadeType",
+			"TypeSFX": "EMP",
+			"Name": "E-Storm"
+		}
+	],
+	"Effect": [
+		{
+			"#": "Effect for E-Pulse, derived from Counter Static effect (id 1315) amd Radio Silence effect (id 19101)",
+			"EffectId": 781000007,
+			"Class": 10,
+			"PurgeType": 1,
+			"SpecialCode": 79,
+			"SpecialValue": 1,
+			"CommsOut": 0,
+			"DroneJammed": 1,
+			"IconAsset": "talent_knight_quantum_assault",
+			"Name": "E-Pulse"
+		}
+	],
+	"MissionLoot": [
+		{
+			"#": "Loot table entry for E-Pulse",
+			"MissionLootId": 781000007,
+			"Group": 781000007,
+			"Type": 2,
+			"Key": 781000007,
+			"PowerLevel": 2,
+			"Rarity": 1,
+			"Name": "Item.Name.781000007",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for E-Burst",
+			"MissionLootId": 781000008,
+			"Group": 781000007,
+			"Type": 2,
+			"Key": 781000007,
+			"PowerLevel": 3,
+			"Rarity": 2,
+			"Name": "Item.Name.781000008",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		},
+		{
+			"#": "Loot table entry for E-Storm",
+			"MissionLootId": 781000009,
+			"Group": 781000007,
+			"Type": 2,
+			"Key": 781000007,
+			"PowerLevel": 4,
+			"Rarity": 3,
+			"Name": "Item.Name.781000009",
+			"Desc": "LootBox.Items.Desc.SealedItem",
+			"Icon": "item_firstaid"
+		}
+	],
+	"RawText": {
+		"en-US": {
+			"Jobs.Talents.Active.Grenade.EPulse": {
+				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}remainder of the Turn{16}.",
+				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death or detect teammates (while Unaware or Suspicious) {15}until end of next Turn{16}.",
+				"other": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}next {0} Turns{16}."
+			}
+		}
+	}
+}
