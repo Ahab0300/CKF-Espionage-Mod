@@ -17,13 +17,10 @@ This **Espionage Mod** expands the content of `Cyber Knights:Flashpoint` by intr
 espionage-related activities. The goal is not to change the `CKF` gameplay but to enhance it
 with content oriented toward stealth and intelligence operations.
 
-[Official Cyber Knights:Flashpoint Wiki](https://cyberknightswiki.tresebrothers.com/).
-
-[Cyber Knights: Flashpoint on Steam](https://store.steampowered.com/app/1021210/Cyber_Knights_Flashpoint/)
-
-[Installing the Espionage Mod](https://steamcommunity.com/app/1021210/workshop/)
-
-[Full Espionage Mod Documentation](./Docs/Main.md)
+> [Official Cyber Knights:Flashpoint Wiki](https://cyberknightswiki.tresebrothers.com/).
+> [Cyber Knights: Flashpoint on Steam](https://store.steampowered.com/app/1021210/Cyber_Knights_Flashpoint/)
+> [Installing the Espionage Mod](https://steamcommunity.com/app/1021210/workshop/)
+> [Full Espionage Mod Documentation](./Docs/Main.md)
 
 The **Espionage Mod** adds the following material to the base game:
 
@@ -44,6 +41,6 @@ In my Roadmap, I am planning and developing:
 * at least 1 more espionage Storyline
 * ultimately, a new Era - the Cold War Era, spy vs. spy between Matsumoto and McKellen
 
-Creator: Ahab0300
-Copyright: 2026
-Contact: <adastranunc@google.com>
+> Creator: Ahab0300
+> Copyright: 2026
+> Contact: <manticoreforever@google.com>
