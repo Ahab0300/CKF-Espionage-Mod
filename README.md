@@ -43,3 +43,7 @@ In my Roadmap, I am planning and developing:
 * a Power Play to get the 'MilSec Spy Gear' Service
 * at least 1 more espionage Storyline
 * ultimately, a new Era - the Cold War Era, spy vs. spy between Matsumoto and McKellen
+
+Creator: Ahab0300
+Copyright: 2026
+Contact: <adastranunc@google.com>
