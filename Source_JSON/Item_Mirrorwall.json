@@ -8,9 +8,9 @@
 		{
 			"#": "Mirrorwall, a portable mirror to block visual detection",
 			"ItemTypeId": 781000016,
-			"ItemClass": 3,
-			"Asset3DTypeId": 25,
-			"ServiceOptionId": 781000001,
+			"Class": 3,
+			"Asset": 25,
+			"Service": 28,
 			"Rarity": "Epic",
 			"PowerLevel": 5,
 			"Cost": 10,
