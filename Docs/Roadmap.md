@@ -3,7 +3,8 @@ There are several more things I intend to add to the **Espionage Mod**.
 
 ##New Proc-Gen Jobs
 I plan at least 5 new Proc-Gen Jobs. The details may change as I learn what is possible
-in new Objective types. Some of these objective may not be possible without coding.
+in creating new Objective types. Some of these objectives may not be possible without
+coding. At the very least, most of them will require adding new objective zones on maps.
 
 ###Pilfer Job
 A Contact needs to steal some materials. This is a simple mission to visit three

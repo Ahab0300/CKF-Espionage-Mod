@@ -5,8 +5,7 @@ spy gear and espionage-related activities. The goal is not to change the `CKF` g
 but to enhance it with content oriented toward stealth and intelligence operations.
 
 - [New Items](Items.md)
-- [New Contact Classes](ContactTypes.md)
-- [New Contacts] (Contacts.md) 
+- [New Contacts and Contact Classes] (Contacts.md) 
 - [New Proc-Gen Legwork Jobs](Legwork.md) 
 - [Roadmap](Roadmap.md)
 
