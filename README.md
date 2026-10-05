@@ -46,6 +46,5 @@ In my Roadmap, I am planning and developing:
 - ultimately, a new Era - the Cold War Era, spy vs. spy between Matsumoto and McKellen
 
 Creator: Ahab0300
-
 Copyright: 2026
 Contact: <manticoreforever@google.com>
