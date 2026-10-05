@@ -14,6 +14,8 @@ Players lead a squad of hackers, mercs, and malcontents on their choice of heist
 navigating the power-player politics of 23rd-century cyberpunk New Boston to build
 their rep and access ever-riskier and more rewarding missions.
 
+[Full Espionage Mod Documentation](Docs/Main.md)
+
 This **Espionage Mod** expands the content of `Cyber Knights:Flashpoint` by introducing spy gear and
 espionage-related activities. The goal is not to change the `CKF` gameplay but to enhance it
 with content oriented toward stealth and intelligence operations.
@@ -23,8 +25,6 @@ with content oriented toward stealth and intelligence operations.
 [Cyber Knights: Flashpoint on Steam](https://store.steampowered.com/app/1021210/Cyber_Knights_Flashpoint/)
 
 [Installing the Espionage Mod](https://steamcommunity.com/app/1021210/workshop/)
-
-[Full Espionage Mod Documentation](Docs/Main.md)
 
 The **Espionage Mod** adds the following material to the base game:
 
@@ -45,6 +45,6 @@ In my Roadmap, I am planning and developing:
 - at least 1 more espionage Storyline
 - ultimately, a new Era - the Cold War Era, spy vs. spy between Matsumoto and McKellen
 
-Creator: Ahab0300
-Copyright: 2026
+Creator: Ahab0300\
+Copyright: 2026\
 Contact: <manticoreforever@google.com>
