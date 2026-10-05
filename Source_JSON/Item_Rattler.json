@@ -10,8 +10,8 @@
 			"ItemTypeId": 781000010,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 781000001,
-			"Rarity": 1,
+			"Service": 28,
+			"Rarity": "Common",
 			"PowerLevel": 1,
 			"Cost": 10,
 			"Talent": 781000010,
@@ -57,7 +57,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.SecuritySpotted.Rattler": "Toss up to {3}, creating a distracting rattle. Any enemies within {4} of your chosen point will immediately become Suspicious, rotate toward it and move to investigate it on their next action."
 		}
 	}

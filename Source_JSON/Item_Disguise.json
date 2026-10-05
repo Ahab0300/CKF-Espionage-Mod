@@ -10,21 +10,21 @@
 			"ItemTypeId": 781000013,
 			"Class": 3,
 			"Asset": 1000,
-			"Service": 781000001,
-			"Rarity": 2,
+			"Service": 28,
+			"Rarity": "Rare",
 			"PowerLevel": 4,
 			"Cost": 10,
 			"Talent": 781000013,
 			"Name": "Holo Disguise",
-			"Desc": "A holographic disguise to fool visual detection."
+			"Desc": "A holographic disguise of a legitimate guard to fool visual detection."
 		},
 		{
 			"#": "Ultra Disguise, projects both the appearance and the bio-signal of a legitimate guard",
 			"ItemTypeId": 781000014,
 			"Class": 3,
 			"Asset": 1000,
-			"Service": 781000001,
-			"Rarity": 4,
+			"Service": 28,
+			"Rarity": "Legendary",
 			"PowerLevel": 6,
 			"Cost": 10,
 			"Talent": 781000014,
@@ -113,7 +113,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.UltraDisguiseBuff": "Engage {9} to disguise yourself, becoming undetectable to enemies and also to Cameras, Prox-Mines, Bio-Scan Fields and Laser Wires for {15}next {0} Turns{16}, canceled by any attack."
 		}
 	}

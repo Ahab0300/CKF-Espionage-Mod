@@ -10,8 +10,8 @@
 			"ItemTypeId": 781000017,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 781000001,
-			"Rarity": 4,
+			"Service": 28,
+			"Rarity": "Legendary",
 			"PowerLevel": 7,
 			"Cost": 10,
 			"Talent": 781000017,
@@ -57,7 +57,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.StealthReduceToHunted": {
 				"zero": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} for {15}remainder of the Turn{16}.",
 				"one": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} {15}until end of next Turn{16}.",

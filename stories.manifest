@@ -44,8 +44,8 @@ Source_JSON/ContactType_Intelligence_Officer.json
 # ContactBackstory, CosmeticGroup
 
 Source_JSON/Contact_Ferret.json
-#Source_JSON/Contacts/Rayburn.json
-#Source_JSON/Contacts/Livia.json
+# Source_JSON/Contacts/Rayburn.json
+# Source_JSON/Contacts/Livia.json
 
 
 # Stories

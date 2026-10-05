@@ -27,7 +27,7 @@
             "Lvl7": 0,
             "TagMatch": "NCP_Meta_Espionage",
             "Name": "Intelligence Officer",
-            "Desc": "An Agent running intelligence-gathering operations and intelligence analysis"
+            "Desc": "An Agent running intelligence-gathering operations and intelligence analysis."
         }
     ],
     "ContactService": [
@@ -39,11 +39,11 @@
             "Group": 781000001,
             "Level": 1,
             "Display": 1,
-            "Option": 781000001,
+            "Option": 1,
             "Upgrade": 1,
             "TagMatch": "Srv_Spygear_PL1",
             "Name": "Spy Gear",
-            "Desc": "Sells tools which are useful for espionage activities and stealth operations"
+            "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
         {
             "#": "Spy Gear service, Rank 2",
@@ -53,11 +53,11 @@
             "Group": 781000001,
             "Level": 2,
             "Display": 2,
-            "Option": 781000002,
+            "Option": 2,
             "Upgrade": 1,
             "TagMatch": "Srv_Spygear_PL2",
             "Name": "Spy Gear",
-            "Desc": "Sells tools which are useful for espionage activities and stealth operations"
+            "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
         {
             "#": "Spy Gear service, Rank 3",
@@ -67,11 +67,11 @@
             "Group": 781000001,
             "Level": 3,
             "Display": 3,
-            "Option": 781000003,
+            "Option": 3,
             "Upgrade": 1,
             "TagMatch": "Srv_Spygear_PL3",
             "Name": "Spy Gear",
-            "Desc": "Sells tools which are useful for espionage activities and stealth operations"
+            "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
         {
             "#": "Spy Gear service, Rank 4",
@@ -81,11 +81,11 @@
             "Group": 781000001,
             "Level": 4,
             "Display": 4,
-            "Option": 781000004,
+            "Option": 4,
             "Upgrade": 2,
             "TagMatch": "Srv_Spygear_PL4",
             "Name": "Spy Gear",
-            "Desc": "Sells tools which are useful for espionage activities and stealth operations"
+            "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
         {
             "#": "MilSec Spy Gear service, Rank 1",
@@ -95,7 +95,7 @@
             "Group": 781000005,
             "Level": 5,
             "Display": 5,
-            "Option": 781000005,
+            "Option": 5,
             "Upgrade": 1,
             "TagMatch": "Srv_MilsecSpygear_PL1",
             "PowerPlay": "PowerPlay_Items_MilsecSpygear",
@@ -105,7 +105,7 @@
             "TagReq3": "NPC_SecurityResearcher",
             "TagReq4": "",
             "Name": "Spy Gear",
-            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth"
+            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         },
         {
             "#": "MilSec Spy Gear service, Rank 2",
@@ -115,11 +115,11 @@
             "Group": 781000005,
             "Level": 6,
             "Display": 6,
-            "Option": 781000006,
+            "Option": 6,
             "Upgrade": 1,
             "TagMatch": "Srv_MilsecSpygear_PL2",
             "Name": "Spy Gear",
-            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth"
+            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         },
         {
             "#": "MilSec Spy Gear service, Rank 3",
@@ -129,11 +129,11 @@
             "Group": 781000005,
             "Level": 7,
             "Display": 7,
-            "Option": 781000007,
+            "Option": 7,
             "Upgrade": 1,
             "TagMatch": "Srv_MilsecSpygear_PL3",
             "Name": "Spy Gear",
-            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth"
+            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         },
         {
             "#": "MilSec Spy Gear service, Rank 4",
@@ -143,21 +143,21 @@
             "Group": 781000005,
             "Level": 8,
             "Display": 8,
-            "Option": 781000008,
+            "Option": 8,
             "Upgrade": 2,
             "TagMatch": "Srv_MilsecSpygear_PL4",
             "Name": "Spy Gear",
-            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth"
+            "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         }
     ],
     "Tag": [
         {
             "#": "Tag for Intelligence Officer contact class",
             "JsonId": 781000001,
-            "TagClass": 8,
+            "TagClass": "ContactType",
             "TagId": "NPC_IntelligenceOfficer",
             "ExtraTag": "NCP_Meta_Espionage",
-            "Name": "Intelligence Officer",
+            "Name": "Intelligence Officer"
         }
     ]
 }

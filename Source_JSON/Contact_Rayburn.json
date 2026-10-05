@@ -36,7 +36,7 @@
 			"Trait2D": "",
 			"Trait2E": "",
 			"Trait2F": "",
-			"ContactLink": "NPC_Rayburn",
+			"ContactLink": "NCP_Rayburn",
 			"FactionTag": "Faction_Matsumoto",
 			"BlockGroup": "",
 			"Tag1": "Faction_Lawful+Faction_Matsumoto",
@@ -45,7 +45,7 @@
 			"TagID": "PersonID_NPC_Rayburn",
 			"TagRandom1": "",
 			"TagRandom2": "",
-			"Codename": "",
+			"CodeName": "",
 			"Location": "Matsumoto Security Complex",
 			"GivenName": "Billy",
 			"Surname": "Rayburn"
@@ -53,7 +53,7 @@
 	],
 	"CosmeticGroup": [
 		{
-			"GroupID": 781000101,
+			"GroupId": 781000101,
 			"Items": [
 				{
 					"RandomGroup": 781000101,
@@ -70,8 +70,8 @@
 				{
 					"RandomGroup": 781000101,
 					"CosmeticFieldType": 107,
-					"CosmeticValue2": 051255255,
-					"CosmeticValue": 051255255
+					"CosmeticValue2": 51255255,
+					"CosmeticValue": 51255255
 				},
 				{
 					"RandomGroup": 781000101,
@@ -82,8 +82,8 @@
 				{
 					"RandomGroup": 781000101,
 					"CosmeticFieldType": 109,
-					"CosmeticValue2": 000102204,
-					"CosmeticValue": 000102204
+					"CosmeticValue2": 102204,
+					"CosmeticValue": 102204
 				},
 				{
 					"RandomGroup": 781000101,
@@ -184,8 +184,8 @@
 				{
 					"RandomGroup": 781000101,
 					"CosmeticFieldType": 105,
-					"CosmeticValue2": 000204102,
-					"CosmeticValue": 000204102
+					"CosmeticValue2": 204102,
+					"CosmeticValue": 204102
 				},
 				{
 					"RandomGroup": 781000101,
@@ -196,8 +196,8 @@
 				{
 					"RandomGroup": 781000101,
 					"CosmeticFieldType": 620,
-					"CosmeticValue2": 000153153,
-					"CosmeticValue": 000153153
+					"CosmeticValue2": 153153,
+					"CosmeticValue": 153153
 				},
 				{
 					"RandomGroup": 781000101,

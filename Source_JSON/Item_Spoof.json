@@ -10,8 +10,8 @@
 			"ItemTypeId": 781000011,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 781000001,
-			"Rarity": 1,
+			"Service": 28,
+			"Rarity": "Common",
 			"PowerLevel": 2,
 			"Cost": 10,
 			"Talent": 781000011,
@@ -23,8 +23,8 @@
 			"ItemTypeId": 781000012,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 781000001,
-			"Rarity": 3,
+			"Service": 28,
+			"Rarity": "Epic",
 			"PowerLevel": 3,
 			"Cost": 10,
 			"Talent": 781000012,
@@ -62,7 +62,7 @@
 			"Type": 781000011,
 			"Level": 1,
 			"Cost": 1,
-			"Active": 1,
+			"IsActive": 1,
 			"Range": 15,
 			"Action": 19,
 			"AP": 20,
@@ -107,7 +107,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.Enemy.StealIFF": "Steal the bio-signal from an enemy within {3}. Grifted signal allows you to avoid triggering all Security Devices except visual systems (Cameras) for {15}next {0} Turns{16}."
 		}
 	}
