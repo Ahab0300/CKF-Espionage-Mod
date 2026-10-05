@@ -11,7 +11,7 @@
 			"ItemClass": 3,
 			"Asset3DTypeId": 25,
 			"ServiceOptionId": 781000001,
-			"Rarity": 3,
+			"Rarity": "Epic",
 			"PowerLevel": 5,
 			"Cost": 10,
 			"TalentId": 781000016,

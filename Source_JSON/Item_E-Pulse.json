@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 1,
+			"Rarity": "Common",
 			"PowerLevel": 2,
 			"Cost": 10,
 			"Talent": 781000007,
@@ -24,7 +24,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 2,
+			"Rarity": "Rare",
 			"PowerLevel": 3,
 			"Cost": 10,
 			"Talent": 781000008,
@@ -37,7 +37,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 3,
+			"Rarity": "Epic",
 			"PowerLevel": 4,
 			"Cost": 10,
 			"Talent": 781000009,
@@ -171,7 +171,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Jobs.Talents.Active.Grenade.EPulse": {
 				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}remainder of the Turn{16}.",
 				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death or detect teammates (while Unaware or Suspicious) {15}until end of next Turn{16}.",

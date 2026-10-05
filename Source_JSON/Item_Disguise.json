@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 1000,
 			"Service": 781000001,
-			"Rarity": 2,
+			"Rarity": "Rare",
 			"PowerLevel": 4,
 			"Cost": 10,
 			"Talent": 781000013,
@@ -24,7 +24,7 @@
 			"Class": 3,
 			"Asset": 1000,
 			"Service": 781000001,
-			"Rarity": 4,
+			"Rarity": "Legendary",
 			"PowerLevel": 6,
 			"Cost": 10,
 			"Talent": 781000014,
@@ -113,7 +113,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.UltraDisguiseBuff": "Engage {9} to disguise yourself, becoming undetectable to enemies and also to Cameras, Prox-Mines, Bio-Scan Fields and Laser Wires for {15}next {0} Turns{16}, canceled by any attack."
 		}
 	}

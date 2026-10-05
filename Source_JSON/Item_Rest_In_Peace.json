@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 4,
+			"Rarity": "Legendary",
 			"PowerLevel": 8,
 			"Cost": 10,
 			"Talent": 781000018,
@@ -58,7 +58,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Jobs.Talents.Active.Grenade.RIP": "Toss up to {3}, setting off a scramble signal. The Body Timers of any dead enemies within {4} will be canceled. No one will come looking for these lost agents but the bodies may still be discovered."
 		}
 	}

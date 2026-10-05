@@ -36,7 +36,7 @@
 			"Trait2D": "",
 			"Trait2E": "",
 			"Trait2F": "",
-			"ContactLink": "NPC_Livia",
+			"ContactLink": "NCP_Livia",
 			"FactionTag": "Faction_Indie",
 			"BlockGroup": "",
 			"Tag1": "Tag_OutOfRetirement",
@@ -45,7 +45,7 @@
 			"TagID": "PersonID_NPC_Livia",
 			"TagRandom1": "",
 			"TagRandom2": "",
-			"Codename": "",
+			"CodeName": "",
 			"Location": "",
 			"GivenName": "Livia",
 			"Surname": ""
@@ -53,7 +53,7 @@
 	],
 	"CosmeticGroup": [
 		{
-			"GroupID": 781000201,
+			"GroupId": 781000201,
 			"Items": [
 				{
 					"RandomGroup": 781000201,
@@ -82,8 +82,8 @@
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 109,
-					"CosmeticValue2": 000076153,
-					"CosmeticValue": 000076153
+					"CosmeticValue2": 76153,
+					"CosmeticValue": 76153
 				},
 				{
 					"RandomGroup": 781000201,
@@ -112,14 +112,14 @@
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 125,
-					"CosmeticValue2": 008008008,
-					"CosmeticValue": 008008008
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 126,
-					"CosmeticValue2": 008008008,
-					"CosmeticValue": 008008008
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
 					"RandomGroup": 781000201,
@@ -130,8 +130,8 @@
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 210,
-					"CosmeticValue2": 008008008,
-					"CosmeticValue": 008008008
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
 					"RandomGroup": 781000201,
@@ -142,8 +142,8 @@
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 105,
-					"CosmeticValue2": 000204000,
-					"CosmeticValue": 000204000
+					"CosmeticValue2": 204000,
+					"CosmeticValue": 204000
 				},
 				{
 					"RandomGroup": 781000201,
@@ -160,8 +160,8 @@
 				{
 					"RandomGroup": 781000201,
 					"CosmeticFieldType": 117,
-					"CosmeticValue2": 008008008,
-					"CosmeticValue": 008008008
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				}
 			]
 		}

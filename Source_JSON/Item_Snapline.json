@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 16,
 			"Service": 781000001,
-			"Rarity": 2,
+			"Rarity": "Rare",
 			"PowerLevel": 3,
 			"Cost": 10,
 			"Talent": 781000001,
@@ -24,7 +24,7 @@
 			"Class": 3,
 			"Asset": 16,
 			"Service": 781000001,
-			"Rarity": 4,
+			"Rarity": "Legendary",
 			"PowerLevel": 6,
 			"Cost": 10,
 			"Talent": 781000002,
@@ -101,7 +101,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Job.Talents.Active.Snapline": "Fire this piton gun at any point up to {3} and be pulled swiftly to the target point without triggering Overwatch, Security Devices, being seen or heard while moving and without generating any Recoil. Cannot fire through walls, and if using Snapline for the second time in a Turn, may generate Injury Time or Stress."
 		}
 	}

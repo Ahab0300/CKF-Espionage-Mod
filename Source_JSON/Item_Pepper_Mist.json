@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 1,
+			"Rarity": "Common",
 			"PowerLevel": 1,
 			"Cost": 10,
 			"Talent": 781000006,
@@ -75,7 +75,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Jobs.Talents.Active.Grenade.Peppermist": {
 				"zero": "Toss up to {3}, creating a mildly irritating cloud {4} across for {15}remainder of the Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",
 				"one": "Toss up to {3}, creating a mildly irritating cloud {4} across {15}until end of next Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",

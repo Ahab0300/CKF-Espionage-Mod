@@ -11,7 +11,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 1,
+			"Rarity": "Common",
 			"PowerLevel": 1,
 			"Cost": 10,
 			"Talent": 781000004,
@@ -24,7 +24,7 @@
 			"Class": 3,
 			"Asset": 25,
 			"Service": 781000001,
-			"Rarity": 3,
+			"Rarity": "Epic",
 			"PowerLevel": 2,
 			"Cost": 10,
 			"Talent": 781000005,
@@ -126,7 +126,7 @@
 		}
 	],
 	"RawText": {
-		"en-US": {
+		"Generic": {
 			"Jobs.Talents.Active.Grenade.Buzzer": {
 				"zero": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}remainder of the Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
 				"one": "Toss up to {3}, creating a zone filled with faint buzzing {4} across {15}until end of next Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",

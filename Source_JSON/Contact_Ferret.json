@@ -36,7 +36,7 @@
 			"Trait2D": "",
 			"Trait2E": "",
 			"Trait2F": "",
-			"ContactLink": "NPC_Ferret",
+			"ContactLink": "NCP_Ferret",
 			"FactionTag": "Faction_UNA",
 			"BlockGroup": "",
 			"Tag1": "Faction_Lawful+Faction_UNA",
@@ -45,7 +45,7 @@
 			"TagID": "PersonID_NPC_Ferret",
 			"TagRandom1": "",
 			"TagRandom2": "",
-			"Codename": "Ferret",
+			"CodeName": "Ferret",
 			"Location": "Somewhere, Downtown",
 			"GivenName": "",
 			"Surname": ""
@@ -53,7 +53,7 @@
 	],
 	"CosmeticGroup": [
 		{
-			"GroupID": 781000001,
+			"GroupId": 781000001,
 			"Items": [
 				{
 					"Random": 781000001,
@@ -154,8 +154,8 @@
 				{
 					"Random": 781000001,
 					"FieldType": 116,
-					"Value2": 008008008,
-					"Value": 008008008
+					"Value2": 8008008,
+					"Value": 8008008
 				}
 			]
 		}
