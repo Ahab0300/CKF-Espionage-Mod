@@ -10,20 +10,20 @@
 			"ItemTypeId": 781000007,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Common",
 			"PowerLevel": 2,
 			"Cost": 10,
 			"Talent": 781000007,
 			"Name": "E-Pulse",
-			"Desc": "A grenade that produces an EMP, jamming both drones and comms."
+			"Desc": "A grenade that produces an EMP, jamming drones and knocking out comms."
 		},
 		{
 			"#": "E-Burst, a more powerful EMP grenade",
 			"ItemTypeId": 781000008,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Rare",
 			"PowerLevel": 3,
 			"Cost": 10,
@@ -36,7 +36,7 @@
 			"ItemTypeId": 781000009,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Epic",
 			"PowerLevel": 4,
 			"Cost": 10,
@@ -59,6 +59,7 @@
 			"AP": 20,
 			"TargetEffect": 781000007,
 			"TargetDuration": 2,
+			"ExtraAsset": 25,
 			"Animation": 3,
 			"Charges": 4,
 			"TargetType": "FLOOR",
@@ -82,6 +83,7 @@
 			"AP": 20,
 			"TargetEffect": 781000007,
 			"TargetDuration": 2,
+			"ExtraAsset": 25,
 			"Animation": 3,
 			"Charges": 2,
 			"TargetType": "FLOOR",
@@ -106,6 +108,7 @@
 			"AP": 20,
 			"TargetEffect": 781000007,
 			"TargetDuration": 3,
+			"ExtraAsset": 25,
 			"Animation": 3,
 			"Charges": 1,
 			"TargetType": "FLOOR",
@@ -171,7 +174,7 @@
 		}
 	],
 	"RawText": {
-		"Generic": {
+		"Numbered": {
 			"Jobs.Talents.Active.Grenade.EPulse": {
 				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}remainder of the Turn{16}.",
 				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death or detect teammates (while Unaware or Suspicious) {15}until end of next Turn{16}.",

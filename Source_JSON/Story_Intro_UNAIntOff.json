@@ -12,11 +12,14 @@
 					"EventId": "B_Intro_UNAIntOff_Dialog",
 					"EventType": "Group",
 					"Text": "Introduction to UNA Intelligence Officer"
-				},
+				}
+			],
+			"GroupId": "B_UHUB_Contact_Fixer_Ferret_Dialog",
+			"Items": [
 				{
-					"Dialog": "D_Intro_UNAIntOff",
-					"EventId": "B_Intro_UNAIntOff_Dialog",
-					"EventType": "Group",
+					"Weight": 20,
+					"Dialog": "D_UHUB_Scissors",
+					"EventType": "Event",
 					"Text": ""
 				}
 			]

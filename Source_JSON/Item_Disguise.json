@@ -10,7 +10,7 @@
 			"ItemTypeId": 781000013,
 			"Class": 3,
 			"Asset": 1000,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Rare",
 			"PowerLevel": 4,
 			"Cost": 10,
@@ -23,7 +23,7 @@
 			"ItemTypeId": 781000014,
 			"Class": 3,
 			"Asset": 1000,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Legendary",
 			"PowerLevel": 6,
 			"Cost": 10,
@@ -35,23 +35,23 @@
 	"Talent": [
 		{
 			"#": "Talent for Holo Disguise",
-			"TalentId": 781000014,
-			"Type": 781000014,
+			"TalentId": 781000013,
+			"Type": 781000013,
 			"Level": 1,
 			"Cost": 1,
 			"IsActive": 1,
 			"AP": 20,
-			"SelfEffect": 55014,
+			"SelfEffect": 55018,
 			"SelfDuration": 2,
 			"Charges": 1,
 			"TargetType": "SELF",
-			"SelfVfx": "Talents/WhiteBuff",
+			"Vfx": "Talents/WhiteBuff",
 			"Icon": "talent_toxkit_biomimic",
-			"StringKey": "Job.Talents.Active.DisguiseBuff",
+			"StringKey": "Job.Talents.Active.HideBuff",
 			"EventSFX": "CHAR_TLNT_Buff",
 			"GroupSFX": "BuffType",
 			"TypeSFX": "Invisible",
-			"Name": "Ultra Disguise"
+			"Name": "Holo Disguise"
 		},
 		{
 			"#": "Talent for Ultra Disguise",
@@ -76,8 +76,8 @@
 	],
 	"Effect": [
 		{
-			"#": "Effect for Ultra Disguise, derived from Nanoflake Disguise effect (id 55014) and Biomimic effect (id 16004)",
-			"EffectId": 781000013,
+			"#": "Effect for Ultra Disguise, derived from Nanoflake Disguise effect (id 55018) and Biomimic effect (id 16004)",
+			"EffectId": 781000014,
 			"Class": 1,
 			"SpecialCode": 2,
 			"Invisible": 1,
@@ -100,7 +100,7 @@
 			"Icon": "item_firstaid"
 		},
 		{
-			"SQL": "insert",
+			"#": "Loot table entry for Ultra Disguise",
 			"MissionLootId": 781000014,
 			"Group": 781000014,
 			"Type": 2,

@@ -10,7 +10,7 @@
 			"ItemTypeId": 781000004,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Common",
 			"PowerLevel": 1,
 			"Cost": 10,
@@ -23,7 +23,7 @@
 			"ItemTypeId": 781000005,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 28,
+			"Service": 100,
 			"Rarity": "Epic",
 			"PowerLevel": 2,
 			"Cost": 10,
@@ -49,6 +49,7 @@
 			"TargetDuration": 2,
 			"Token": 15,
 			"TokenDuration": 2,
+			"ExtraAsset": 25,
 			"Animation": 3,
 			"Charges": 2,
 			"TargetType": "FLOOR",
@@ -77,6 +78,7 @@
 			"TargetDuration": 3,
 			"Token": 15,
 			"TokenDuration": 3,
+			"ExtraAsset": 25,
 			"Animation": 3,
 			"Charges": 2,
 			"TargetType": "FLOOR",
@@ -85,7 +87,8 @@
 			"StringKey": "Jobs.Talents.Active.Grenade.Buzzer",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
-			"TypeSFX": "Vulnerable"
+			"TypeSFX": "Vulnerable",
+			"Name": "Buzzcut Pro"
 		}
 	],
 	"Effect": [
@@ -126,7 +129,7 @@
 		}
 	],
 	"RawText": {
-		"Generic": {
+		"Numbered": {
 			"Jobs.Talents.Active.Grenade.Buzzer": {
 				"zero": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}remainder of the Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
 				"one": "Toss up to {3}, creating a zone filled with faint buzzing {4} across {15}until end of next Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
