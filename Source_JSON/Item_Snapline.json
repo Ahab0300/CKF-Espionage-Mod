@@ -27,7 +27,7 @@
 			"Rarity": "Legendary",
 			"PowerLevel": 6,
 			"Cost": 10,
-			"Talent": 781000002,
+			"Talent": 781000001,
 			"Name": "Snapline 007",
 			"Desc": "Piton gun with a powerful retracting motor, capable of pulling the bearer to a target location extremely rapidly."
 		}
@@ -45,7 +45,7 @@
 			"AP": 20,
 			"Charges": 2,
 			"TargetType": "FLOOR",
-			"Vfx": "Talents/MovingVFX_Shadow",
+			"Vfx": "Talents/MovingVFX_Warp",
 			"Icon": "talent_agent_glitch",
 			"StringKey": "Job.Talents.Active.Snapline",
 			"EventSFX": "CHAR_TLNT_Movement",
@@ -65,7 +65,7 @@
 			"AP": 20,
 			"Charges": 2,
 			"TargetType": "FLOOR",
-			"Vfx": "Talents/MovingVFX_Shadow",
+			"Vfx": "Talents/MovingVFX_Warp",
 			"Icon": "talent_agent_glitch",
 			"StringKey": "Job.Talents.Active.Snapline",
 			"EventSFX": "CHAR_TLNT_Movement",

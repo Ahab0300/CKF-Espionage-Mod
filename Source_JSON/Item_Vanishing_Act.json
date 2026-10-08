@@ -28,8 +28,8 @@
 			"Cost": 1,
 			"IsActive": 1,
 			"AP": 20,
-			"TargetEffect": 11006,
-			"TargetDuration": 1,
+			"SelfEffect": 781000017,
+			"SelfDuration": 1,
 			"Filter": 9,
 			"Charges": 1,
 			"TargetType": "SELF",
@@ -39,6 +39,18 @@
 			"EventSFX": "CHAR_TLNT_Buff",
 			"GroupSFX": "BuffType",
 			"TypeSFX": "Aggressive",
+			"Name": "Vanishing Act"
+		}
+	],
+	"Effect": [
+		{
+			"#": "Effect for Vanishing Act, derived from Fleeting effect (id 11006).",
+			"EffectId": 781000017,
+			"Class": 1,
+			"HealType": 13,
+			"Heals": 2,
+			"StealthAccuracy": 10,
+			"IconAsset": "talent_sniper_fleeting",
 			"Name": "Vanishing Act"
 		}
 	],
@@ -57,7 +69,7 @@
 		}
 	],
 	"RawText": {
-		"Generic": {
+		"Numbered": {
 			"Job.Talents.Active.StealthReduceToHunted": {
 				"zero": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} for {15}remainder of the Turn{16}.",
 				"one": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} {15}until end of next Turn{16}.",

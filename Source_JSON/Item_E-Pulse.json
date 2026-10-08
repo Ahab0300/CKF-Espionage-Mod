@@ -50,6 +50,7 @@
 			"#": "Talent for E-Pulse, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004)",
 			"TalentId": 781000007,
 			"Type": 781000007,
+			"AltAdjust": 1,
 			"Level": 1,
 			"Cost": 1,
 			"IsActive": 1,
@@ -63,7 +64,7 @@
 			"Animation": 3,
 			"Charges": 4,
 			"TargetType": "FLOOR",
-			"Vfx": " Talents/RedBuffV2",
+			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
 			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
 			"GroupSFX": "GrenadeType",
@@ -74,6 +75,7 @@
 			"#": "Talent for E-Burst, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004); larger AoE than E-Pulse but fewer charges",
 			"TalentId": 781000008,
 			"Type": 781000008,
+			"AltAdjust": 1,
 			"Level": 1,
 			"Cost": 1,
 			"IsActive": 1,
@@ -87,7 +89,7 @@
 			"Animation": 3,
 			"Charges": 2,
 			"TargetType": "FLOOR",
-			"Vfx": " Talents/RedBuffV2",
+			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
 			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
@@ -99,6 +101,7 @@
 			"#": "Talent for E-Storm, derived from Counter Static talent (id 1205) and Radio Silence talent (id 19004); larger AoE than E-Burst but only 1 charge",
 			"TalentId": 781000009,
 			"Type": 781000009,
+			"AltAdjust": 1,
 			"Level": 1,
 			"Cost": 1,
 			"IsActive": 1,
@@ -112,7 +115,7 @@
 			"Animation": 3,
 			"Charges": 1,
 			"TargetType": "FLOOR",
-			"Vfx": " Talents/RedBuffV2",
+			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
 			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
@@ -129,7 +132,7 @@
 			"PurgeType": 1,
 			"SpecialCode": 79,
 			"SpecialValue": 1,
-			"CommsOut": 0,
+			"CommsOut": 1,
 			"DroneJammed": 1,
 			"IconAsset": "talent_knight_quantum_assault",
 			"Name": "E-Pulse"
@@ -176,9 +179,9 @@
 	"RawText": {
 		"Numbered": {
 			"Jobs.Talents.Active.Grenade.EPulse": {
-				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}remainder of the Turn{16}.",
-				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death or detect teammates (while Unaware or Suspicious) {15}until end of next Turn{16}.",
-				"other": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death or detect teammates (while Unaware or Suspicious) for {15}next {0} Turns{16}."
+				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death for {15}remainder of the Turn{16}. Victims become Alerted.",
+				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death {15}until end of next Turn{16}. Victims become Alerted.",
+				"other": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death for {15}next {0} Turns{16}. Victims become Alerted."
 			}
 		}
 	}

@@ -24,6 +24,7 @@
 			"#": "Talent for Rattler, derived from Lure talent (id 1207)",
 			"TalentId": 781000010,
 			"Type": 781000010,
+			"AltAdjust": 1,
 			"Level": 1,
 			"Cost": 1,
 			"IsActive": 1,
