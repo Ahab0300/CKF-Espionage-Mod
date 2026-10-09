@@ -16,7 +16,7 @@
 			"PowerLevel": 2,
 			"Favor": 0,
 			"Trust": 22,
-			"Cosmetic": 781000001,
+			"Cosmetic": 395,
 			"ServiceGroupId1": 0,
 			"ServiceLevel1": 0,
 			"ServiceGroupId2": 0,
@@ -171,11 +171,15 @@
 					"PostState1": "ADD_UHUB_Fixer_Ferret",
 					"EventId": "B_UHUB_Contact_Fixer_Ferret_Dialog",
 					"EventType": "Group"
-				},
+				}
+			]
+		},
+		{
+			"GroupId": "B_UHUB_Contact_Fixer_Ferret_Dialog",
+			"Items": [
 				{
-					"Dialog": "D_Intro_UNAIntOff",
-					"EventId": "B_Intro_UNAIntOff_Dialog",
-					"EventType": "Group"
+					"Weight": 20,
+					"Dialog": "D_UHUB_Ferret"
 				}
 			]
 		}
@@ -186,7 +190,7 @@
 			"Items": [
 				{
 					"ConditionType": "AddCharacter",
-					"ActorId": "NCT_LegSurveillance",
+					"Actor": "NCP_Ferret",
 					"Value1": -1,
 					"Value2": 781000001
 				}
@@ -195,13 +199,13 @@
 	],
 	"Dialog": [
 		{
-			"GroupId": "D_Intro_UNAIntOff",
+			"GroupId": "D_UHUB_Ferret",
 			"Items": [
 				{
 					"Actor": "PCP_Face",
-					"Side": "R",
-					"InterpolateId": "NCP_Ferret",
-					"Text": "Let me introduce {1}, our latest connect and a {2}."
+					"Side": "L",
+					"Target": "NCP_Ferret",
+					"Text": "Let me introduce {1}, our latest connect."
 				},
 				{
 					"Actor": "NCP_Ferret",
@@ -210,7 +214,7 @@
 				},
 				{
 					"Actor": "NAR_",
-					"Text": "We can find {2} {1} in our Contact list to check out what additional services and offerings they may be able to offer."
+					"Text": "We can find {1} in our Contact list to check out what additional services and offerings they may be able to offer."
 				}
 			]
 		}
