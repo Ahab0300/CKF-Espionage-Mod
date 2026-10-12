@@ -1,7 +1,7 @@
 {
     "Metadata": {
         "#": "Intelligence Officer contact class",
-        "StoryKey": "IntelligenceOfficer",
+        "StoryKey": "AhabEspionage_IntelligenceOfficer",
         "StartingId": 781000001
     },
     "ContactType": [
@@ -41,7 +41,7 @@
             "Display": 1,
             "Option": 1,
             "Upgrade": 1,
-            "TagMatch": "Srv_Spygear_PL1",
+            "TagMatch": "Srv_AhabEspionage_Spygear_PL1",
             "Name": "Spy Gear",
             "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
@@ -55,7 +55,7 @@
             "Display": 2,
             "Option": 2,
             "Upgrade": 1,
-            "TagMatch": "Srv_Spygear_PL2",
+            "TagMatch": "Srv_AhabEspionage_Spygear_PL2",
             "Name": "Spy Gear",
             "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
@@ -69,7 +69,7 @@
             "Display": 3,
             "Option": 3,
             "Upgrade": 1,
-            "TagMatch": "Srv_Spygear_PL3",
+            "TagMatch": "Srv_AhabEspionage_Spygear_PL3",
             "Name": "Spy Gear",
             "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
@@ -83,7 +83,7 @@
             "Display": 4,
             "Option": 4,
             "Upgrade": 2,
-            "TagMatch": "Srv_Spygear_PL4",
+            "TagMatch": "Srv_AhabEspionage_Spygear_PL4",
             "Name": "Spy Gear",
             "Desc": "Sells tools which are useful for espionage activities and stealth operations."
         },
@@ -97,9 +97,9 @@
             "Display": 5,
             "Option": 5,
             "Upgrade": 1,
-            "TagMatch": "Srv_MilsecSpygear_PL1",
-            "PowerPlay": "PowerPlay_Items_MilsecSpygear",
-            "GroupTag": "PowerPlay_Items_MilsecSpygear",
+            "TagMatch": "Srv_AhabEspionage_MilsecSpygear_PL1",
+            "PowerPlay": "PowerPlay_Items_AhabEspionage_MilsecSpygear",
+            "GroupTag": "PowerPlay_Items_AhabEspionage_MilsecSpygear",
             "TagReq1": "NCP_Meta_Espionage",
             "TagReq2": "NPC_SpecOps",
             "TagReq3": "NPC_SecurityResearcher",
@@ -117,7 +117,7 @@
             "Display": 6,
             "Option": 6,
             "Upgrade": 1,
-            "TagMatch": "Srv_MilsecSpygear_PL2",
+            "TagMatch": "Srv_AhabEspionage_MilsecSpygear_PL2",
             "Name": "Spy Gear",
             "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         },
@@ -131,7 +131,7 @@
             "Display": 7,
             "Option": 7,
             "Upgrade": 1,
-            "TagMatch": "Srv_MilsecSpygear_PL3",
+            "TagMatch": "Srv_AhabEspionage_MilsecSpygear_PL3",
             "Name": "Spy Gear",
             "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         },
@@ -145,19 +145,49 @@
             "Display": 8,
             "Option": 8,
             "Upgrade": 2,
-            "TagMatch": "Srv_MilsecSpygear_PL4",
+            "TagMatch": "Srv_AhabEspionage_MilsecSpygear_PL4",
             "Name": "Spy Gear",
             "Desc": "Sells Milsec-grade tools which are useful for espionage activities and stealth."
         }
     ],
     "Tag": [
         {
-            "#": "Tag for Intelligence Officer contact class",
-            "JsonId": 781000001,
             "TagClass": "ContactType",
-            "TagId": "NPC_IntelligenceOfficer",
+            "TagId": "NPC_AhabEspionage_IntelligenceOfficer",
             "ExtraTag": "NCP_Meta_Espionage",
             "Name": "Intelligence Officer"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_Spygear_PL1"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_Spygear_PL2"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_Spygear_PL3"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_Spygear_PL4"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_MilsecSpygear_PL1"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_MilsecSpygear_PL2"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_MilsecSpygear_PL3"
+        },
+        {
+            "TagClass": "Hidden",
+            "TagId": "Srv_AhabEspionage_MilsecSpygear_PL4"
         }
     ]
 }

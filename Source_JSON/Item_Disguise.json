@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Holo Disguise, Ultra Disguise",
-		"StoryKey": "Disguise",
+		"StoryKey": "AhabEspionage_Disguise",
 		"StartingId": 781000013
 	},
 	"Item": [
@@ -67,7 +67,7 @@
 			"TargetType": "SELF",
 			"SelfVfx": "Talents/WhiteBuff",
 			"Icon": "talent_toxkit_biomimic",
-			"StringKey": "Job.Talents.Active.UltraDisguiseBuff",
+			"StringKey": "Job.Talents.Active.AhabEspionage_UltraDisguiseBuff",
 			"EventSFX": "CHAR_TLNT_Buff",
 			"GroupSFX": "BuffType",
 			"TypeSFX": "Invisible",
@@ -114,7 +114,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Job.Talents.Active.UltraDisguiseBuff": "Engage {9} to disguise yourself, becoming undetectable to enemies and also to Cameras, Prox-Mines, Bio-Scan Fields and Laser Wires for {15}next {0} Turns{16}, canceled by any attack."
+			"Job.Talents.Active.AhabEspionage_UltraDisguiseBuff": "Engage {9} to disguise yourself, becoming undetectable to enemies and also to Cameras, Prox-Mines, Bio-Scan Fields and Laser Wires for {15}next {0} Turns{16}, canceled by any attack."
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Pepper Mist",
-		"StoryKey": "PepperMist",
+		"StoryKey": "AhabEspionage_PepperMist",
 		"StartingId": 781000006
 	},
 	"Item": [
@@ -44,7 +44,7 @@
 			"Vfx": " Talents/YellowBuff",
 			"TokenVfx": "Tokens/VFX Tox Cloud",
 			"Icon": "talent_toxkit_aeroshrap",
-			"StringKey": "Jobs.Talents.Active.Grenade.Peppermist",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_Peppermist",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "Vulnerable",
@@ -77,7 +77,7 @@
 	],
 	"RawText": {
 		"Numbered": {
-			"Jobs.Talents.Active.Grenade.Peppermist": {
+			"Jobs.Talents.Active.Grenade.AhabEspionage_Peppermist": {
 				"zero": "Toss up to {3}, creating a mildly irritating cloud {4} across for {15}remainder of the Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",
 				"one": "Toss up to {3}, creating a mildly irritating cloud {4} across {15}until end of next Turn{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones.",
 				"other": "Toss up to {3}, creating a mildly irritating cloud {4} across for {15}next {0} Turns{16}. Pepper Mist reduces the visual range of Unaware and Suspicious guards. Has no effect on Drones."

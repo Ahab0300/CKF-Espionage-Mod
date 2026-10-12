@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Rattler",
-		"StoryKey": "Rattler",
+		"StoryKey": "AhabEspionage_Rattler",
 		"StartingId": 781000010
 	},
 	"Item": [
@@ -36,7 +36,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Talents/PurpleBuffV2",
 			"Icon": "talent_vanguard_lure",
-			"StringKey": "Job.Talents.Active.SecuritySpotted.Rattler",
+			"StringKey": "Job.Talents.Active.SecuritySpotted.AhabEspionage_Rattler",
 			"EventSFX": "CHAR_TLNT_Tech",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Predictive",
@@ -59,7 +59,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Job.Talents.Active.SecuritySpotted.Rattler": "Toss up to {3}, creating a distracting rattle. Any enemies within {4} of your chosen point will immediately become Suspicious, rotate toward it and move to investigate it on their next action."
+			"Job.Talents.Active.SecuritySpotted.AhabEspionage_Rattler": "Toss up to {3}, creating a distracting rattle. Any enemies within {4} of your chosen point will immediately become Suspicious, rotate toward it and move to investigate it on their next action."
 		}
 	}
 }

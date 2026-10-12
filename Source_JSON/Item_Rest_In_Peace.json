@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Rest-In-Peace",
-		"StoryKey": "RestInPeace",
+		"StoryKey": "AhabEspionage_RestInPeace",
 		"StartingId": 781000018
 	},
 	"Item": [
@@ -39,7 +39,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Talents/RedBuffV2",
 			"Icon": "talent_vanguard_bodybag",
-			"StringKey": "Jobs.Talents.Active.Grenade.RIP",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_RIP",
 			"EventSFX": "CHAR_TLNT_Tech",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Predictive",
@@ -62,7 +62,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Jobs.Talents.Active.Grenade.RIP": "Toss up to {3}, setting off a scramble signal. The Body Timers of any dead enemies within {4} will be canceled. No one will come looking for these lost agents but the bodies may still be discovered."
+			"Jobs.Talents.Active.Grenade.AhabEspionage_RIP": "Toss up to {3}, setting off a scramble signal. The Body Timers of any dead enemies within {4} will be canceled. No one will come looking for these lost agents but the bodies may still be discovered."
 		}
 	}
 }

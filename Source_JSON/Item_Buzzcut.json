@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Buzzcut, Buzzcut Pro",
-		"StoryKey": "Buzzcut",
+		"StoryKey": "AhabEspionage_Buzzcut",
 		"StartingId": 781000004
 	},
 	"Item": [
@@ -56,7 +56,7 @@
 			"Vfx": " Talents/YellowBuff",
 			"TokenVfx": "Tokens/VFX Venom Trap Border",
 			"Icon": "talent_agent_whitenoise",
-			"StringKey": "Jobs.Talents.Active.Grenade.Buzzer",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_Buzzer",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "Vulnerable",
@@ -86,7 +86,7 @@
 			"Vfx": " Talents/YellowBuff",
     		"TokenVfx": "Tokens/VFX White Noise",
 			"Icon": "talent_agent_whitenoise",
-			"StringKey": "Jobs.Talents.Active.Grenade.Buzzer",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_Buzzer",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "Vulnerable",
@@ -132,7 +132,7 @@
 	],
 	"RawText": {
 		"Numbered": {
-			"Jobs.Talents.Active.Grenade.Buzzer": {
+			"Jobs.Talents.Active.Grenade.AhabEspionage_Buzzer": {
 				"zero": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}remainder of the Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
 				"one": "Toss up to {3}, creating a zone filled with faint buzzing {4} across {15}until end of next Turn{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots.",
 				"other": "Toss up to {3}, creating a zone filled with faint buzzing {4} across for {15}{0} Turns{16}. Buzzcut reduces the audio detection range of guards and slightly reduces the detection of gunshots."

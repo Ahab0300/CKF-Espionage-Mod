@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "SecBuster",
-		"StoryKey": "SecBuster",
+		"StoryKey": "AhabEspionage_SecBuster",
 		"StartingId": 781000015
 	},
 	"Item": [
@@ -35,7 +35,7 @@
 			"TargetType": "DEVICE",
 			"Vfx": "Talents/PurpleBuffV2",
 			"Icon": "talent_vanguard_jamkit",
-			"StringKey": "Job.Talents.Active.SecurityDeviceAny",
+			"StringKey": "Job.Talents.Active.AhabEspionage_SecurityDeviceAny",
 			"EventSFX": "CHAR_TLNT_Tech",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Security",
@@ -58,7 +58,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Job.Talents.Active.SecurityDeviceAny": "Disable a Level 1 or Level 2 Security Device within {3} for {15}next {0} Turns{16}."
+			"Job.Talents.Active.AhabEspionage_SecurityDeviceAny": "Disable a Level 1 or Level 2 Security Device within {3} for {15}next {0} Turns{16}."
 		}
 	}
 }

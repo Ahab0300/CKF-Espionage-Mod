@@ -1,7 +1,7 @@
-		{
+{
 	"Metadata": {
 		"#": "Ferret, an Intelligence Officer",
-		"StoryKey": "Ferret",
+		"StoryKey": "AhabEspionage_Ferret",
 		"StartingId": 781000001
 	},
 	"ContactBackstory": [
@@ -16,39 +16,20 @@
 			"PowerLevel": 2,
 			"Favor": 0,
 			"Trust": 22,
-			"Cosmetic": 395,
-			"ServiceGroupId1": 0,
-			"ServiceLevel1": 0,
-			"ServiceGroupId2": 0,
-			"ServiceLevel2": 0,
-			"ServiceGroupId3": 0,
-			"ServiceLevel3": 0,
+			"Cosmetic": 392,
 			"Weight": 1,
 			"Trait1A": "ConTrait_Skeptical",
 			"Trait1B": "ConTrait_LowTemp",
-			"Trait1C": "",
-			"Trait1D": "",
-			"Trait1E": "",
-			"Trait1F": "",
 			"Trait2A": "ConTrait_DetailOriented",
 			"Trait2B": "ConTrait_TightLipped",
-			"Trait2C": "",
-			"Trait2D": "",
-			"Trait2E": "",
-			"Trait2F": "",
-			"ContactLink": "NCP_Ferret",
+			"ContactLink": "NCP_AhabEspionage_Ferret",
 			"FactionTag": "Faction_UNA",
-			"BlockGroup": "",
 			"Tag1": "Faction_Lawful+Faction_UNA",
 			"Tag2": "Tag_ConspiracyTheorist",
 			"Tag3": "Tag_LaunchPadConnections",
-			"TagID": "PersonID_NPC_Ferret",
-			"TagRandom1": "",
-			"TagRandom2": "",
+			"TagID": "PersonID_NPC_AhabEspionage_Ferret",
 			"CodeName": "Ferret",
-			"Location": "Somewhere, Downtown",
-			"GivenName": "",
-			"Surname": ""
+			"Location": "Somewhere, Downtown"
 		}
 	],
 	"CosmeticGroup": [
@@ -166,31 +147,31 @@
 			"Items": [
 				{
 					"Weight": 20,
-					"PreState1": "NOT_UHUB_Fixer_Ferret",
-					"PostConditionGroup": "Post_UHUB_Fixer_Ferret",
-					"PostState1": "ADD_UHUB_Fixer_Ferret",
-					"EventId": "B_UHUB_Contact_Fixer_Ferret_Dialog",
+					"PreState1": "NOT_UHUB_Fixer_AhabEspionage_Ferret",
+					"PostConditionGroup": "Post_UHUB_Fixer_AhabEspionage_Ferret",
+					"PostState1": "ADD_UHUB_Fixer_AhabEspionage_Ferret",
+					"EventId": "B_UHUB_Contact_Fixer_AhabEspionage_Ferret_Dialog",
 					"EventType": "Group"
 				}
 			]
 		},
 		{
-			"GroupId": "B_UHUB_Contact_Fixer_Ferret_Dialog",
+			"GroupId": "B_UHUB_Contact_Fixer_AhabEspionage_Ferret_Dialog",
 			"Items": [
 				{
 					"Weight": 20,
-					"Dialog": "D_UHUB_Ferret"
+					"Dialog": "D_UHUB_AhabEspionage_Ferret"
 				}
 			]
 		}
 	],
 	"BlockCondition": [
 		{
-			"GroupId": "Post_UHUB_Fixer_Ferret",
+			"GroupId": "Post_UHUB_Fixer_AhabEspionage_Ferret",
 			"Items": [
 				{
 					"ConditionType": "AddCharacter",
-					"Actor": "NCP_Ferret",
+					"Actor": "NCP_AhabEspionage_Ferret",
 					"Value1": -1,
 					"Value2": 781000001
 				}
@@ -199,25 +180,24 @@
 	],
 	"Dialog": [
 		{
-			"GroupId": "D_UHUB_Ferret",
+			"GroupId": "D_UHUB_AhabEspionage_Ferret",
 			"Items": [
 				{
 					"Actor": "PCP_Face",
 					"Side": "L",
-					"Target": "NCP_Ferret",
-					"Text": "Let me introduce {1}, our latest connect."
+					"Target": "NCP_AhabEspionage_Ferret",
+					"Text": "Let me introduce {1}, our latest connect and a {2}."
 				},
 				{
-					"Actor": "NCP_Ferret",
+					"Actor": "NCP_AhabEspionage_Ferret",
 					"Side": "R",
 					"Text": "Whether for espionage or a quiet heist, I have the tools that can help you on the job."
 				},
 				{
 					"Actor": "NAR_",
-					"Text": "We can find {1} in our Contact list to check out what additional services and offerings they may be able to offer."
+					"Text": "We can find {2} {1} in our Contact list to check out what additional services and offerings they may be able to offer."
 				}
 			]
 		}
 	]
-
 }

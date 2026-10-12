@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Vanishing Act",
-		"StoryKey": "VanishingAct",
+		"StoryKey": "AhabEspionage_VanishingAct",
 		"StartingId": 781000017
 	},
 	"Item": [
@@ -30,12 +30,11 @@
 			"AP": 20,
 			"SelfEffect": 781000017,
 			"SelfDuration": 1,
-			"Filter": 9,
 			"Charges": 1,
 			"TargetType": "SELF",
 			"SelfVfx": "Talents/PurpleBuff",
 			"Icon": "talent_agent_shadow",
-			"StringKey": "Job.Talents.Active.StealthReduceToHunted",
+			"StringKey": "Job.Talents.Active.AhabEspionage_StealthReduceToHunted",
 			"EventSFX": "CHAR_TLNT_Buff",
 			"GroupSFX": "BuffType",
 			"TypeSFX": "Aggressive",
@@ -70,7 +69,7 @@
 	],
 	"RawText": {
 		"Numbered": {
-			"Job.Talents.Active.StealthReduceToHunted": {
+			"Job.Talents.Active.AhabEspionage_StealthReduceToHunted": {
 				"zero": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} for {15}remainder of the Turn{16}.",
 				"one": "Activate this holographic scrambler to immediately {7} (enemies must re-acquire you) and gain {1} {15}until end of next Turn{16}.",
 				"other": "Activate this holographic scrambler to, immediately {7} (enemies must re-acquire you) and gain {1} for {15}next {0} Turns{16}."

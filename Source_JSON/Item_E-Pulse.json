@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "E-Pulse, E-Burst, E-Storm",
-		"StoryKey": "EPulse",
+		"StoryKey": "AhabEspionage_EPulse",
 		"StartingId": 781000007
 	},
 	"Item": [
@@ -66,7 +66,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
-			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_EPulse",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "EMP",
 			"Name": "E-Pulse"
@@ -91,7 +91,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
-			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_EPulse",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "EMP",
@@ -117,7 +117,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Weapons/KNIFE Explosion Plasma Grenade",
 			"Icon": "talent_knight_quantum_assault",
-			"StringKey": "Jobs.Talents.Active.Grenade.EPulse",
+			"StringKey": "Jobs.Talents.Active.Grenade.AhabEspionage_EPulse",
 			"EventSFX": "CHAR_ITEM_GrenadeExplode",
 			"GroupSFX": "GrenadeType",
 			"TypeSFX": "EMP",
@@ -178,7 +178,7 @@
 	],
 	"RawText": {
 		"Numbered": {
-			"Jobs.Talents.Active.Grenade.EPulse": {
+			"Jobs.Talents.Active.Grenade.AhabEspionage_EPulse": {
 				"zero": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death for {15}remainder of the Turn{16}. Victims become Alerted.",
 				"one": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms, drones cannot report their own death {15}until end of next Turn{16}. Victims become Alerted.",
 				"other": "Toss up to {3}, creating an Electro-Magnetic Pulse {4} across. Enemies caught in the field cannot use comms and drones cannot report their own death for {15}next {0} Turns{16}. Victims become Alerted."

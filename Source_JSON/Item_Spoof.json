@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Spoof Lite, Spoof Max",
-		"StoryKey": "Spoof",
+		"StoryKey": "AhabEspionage_Spoof",
 		"StartingId": 781000011
 	},
 	"Item": [
@@ -50,7 +50,7 @@
 			"Vfx": "Talents/SignalGrift",
 			"SelfVfx": "Talents/SignalGrift",
 			"Icon": "talent_agent_signalgraft",
-			"StringKey": "Job.Talents.Active.Enemy.StealIFF",
+			"StringKey": "Job.Talents.Active.Enemy.AhabEspionage_StealIFF",
 			"EventSFX": "CHAR_ITEM_SecurityUse",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Terminal",
@@ -73,7 +73,7 @@
 			"Vfx": "Talents/SignalGrift",
 			"SelfVfx": "Talents/SignalGrift",
 			"Icon": "talent_agent_signalgraft",
-			"StringKey": "Job.Talents.Active.Enemy.StealIFF",
+			"StringKey": "Job.Talents.Active.Enemy.AhabEspionage_StealIFF",
 			"EventSFX": "CHAR_ITEM_SecurityUse",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Terminal",
@@ -108,7 +108,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Job.Talents.Active.Enemy.StealIFF": "Steal the bio-signal from an enemy within {3}. Grifted signal allows you to avoid triggering all Security Devices except visual systems (Cameras) for {15}next {0} Turns{16}."
+			"Job.Talents.Active.Enemy.AhabEspionage_StealIFF": "Steal the bio-signal from an enemy within {3}. Grifted signal allows you to avoid triggering all Security Devices except visual systems (Cameras) for {15}next {0} Turns{16}."
 		}
 	}
 }

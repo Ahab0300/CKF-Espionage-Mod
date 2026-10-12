@@ -1,7 +1,7 @@
 {
 	"Metadata": {
 		"#": "Snapline, Snapline 007",
-		"StoryKey": "Snapline",
+		"StoryKey": "AhabEspionage_Snapline",
 		"StartingId": 781000001
 	},
 	"Item": [
@@ -47,7 +47,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Talents/MovingVFX_Warp",
 			"Icon": "talent_agent_glitch",
-			"StringKey": "Job.Talents.Active.Snapline",
+			"StringKey": "Job.Talents.Active.AhabEspionage_Snapline",
 			"EventSFX": "CHAR_TLNT_Movement",
 			"GroupSFX": "MovementType",
 			"TypeSFX": "Teleport",
@@ -67,7 +67,7 @@
 			"TargetType": "FLOOR",
 			"Vfx": "Talents/MovingVFX_Warp",
 			"Icon": "talent_agent_glitch",
-			"StringKey": "Job.Talents.Active.Snapline",
+			"StringKey": "Job.Talents.Active.AhabEspionage_Snapline",
 			"EventSFX": "CHAR_TLNT_Movement",
 			"GroupSFX": "MovementType",
 			"TypeSFX": "Teleport",
@@ -102,7 +102,7 @@
 	],
 	"RawText": {
 		"Generic": {
-			"Job.Talents.Active.Snapline": "Fire this piton gun at any point up to {3} and be pulled swiftly to the target point without triggering Overwatch, Security Devices, being seen or heard while moving and without generating any Recoil. Cannot fire through walls, and if using Snapline for the second time in a Turn, may generate Injury Time or Stress."
+			"Job.Talents.Active.AhabEspionage_Snapline": "Fire this piton gun at any point up to {3} and be pulled swiftly to the target point without triggering Overwatch, Security Devices, being seen or heard while moving and without generating any Recoil. Cannot fire through walls, and if using Snapline for the second time in a Turn, may generate Injury Time or Stress."
 		}
 	}
 }
