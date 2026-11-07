@@ -2,19 +2,19 @@
 	"Metadata": {
 		"#": "Billy Rayburn, an Matsumoto Intelligence Officer",
 		"StoryKey": "AhabEspionage_Rayburn",
-		"StartingId": 781000003
+		"StartingId": 781000101
 	},
 	"ContactBackstory": [
 		{
 			"#": "Rayburn, a Matsumoto Intelligence Officer",
-			"ContactBackstoryId": 781000003,
-			"Group": 781000003,
+			"ContactBackstoryId": 781000101,
+			"Group": 781000101,
 			"NewGame": 0,
 			"ContactType": 781000001,
 			"Status": 1,
 			"InfluenceScore": 1,
 			"PowerLevel": 3,
-			"Cosmetic": 781000101,
+			"Cosmetic": 248,
 			"Weight": 1,
 			"Trait1A": "ConTrait_Uninspiring",
 			"Trait1B": "ConTrait_Bellicose",
@@ -26,7 +26,7 @@
 			"Tag1": "Faction_Lawful+Faction_Matsumoto",
 			"Tag2": "Tag_Ambitious",
 			"Tag3": "Tag_KnightHorizonSiege",
-			"TagID": "PersonID_NPC_AhabEspionage_Rayburn",
+			"TagID": "PersonID_NCP_AhabEspionage_Rayburn",
 			"Location": "Matsumoto Security Complex",
 			"GivenName": "Billy",
 			"Surname": "Rayburn"
@@ -188,5 +188,11 @@
 				}
 			]
 		}
-	]
+	],
+	"Tag": [
+		{
+			"TagClass": "PersonalID",
+			"TagId": "PersonID_NCP_AhabEspionage_Rayburn"
+		}
+	]	
 }

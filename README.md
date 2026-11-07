@@ -23,23 +23,21 @@ subscribe to it in the [Steam Workshop](https://store.steampowered.com/app/10212
 
 The **Espionage Mod** adds the following material to the base game:
 
-- 18 new Items inspired by classic heist and espionage movies
+- 17 new Items inspired by classic heist and espionage movies
 - a new 'Spy Gear' Service to sell the Items
-- a new Contact Class - 'Intelligence Officer'
-- a new Contact, an Intelligence Officer working for the UNA
+- 2 new Contact Classes - 'Intelligence Officer' and 'Information Broker'
+- 2 new Contacts
 - 2 new espionage-related Proc-Gen Legwork jobs
 
-In my Roadmap, I am developing:
+Future expansions will include:
 
-- a full storyline to introduce the UNA Intelligence Offier Contact
 - at least 3 more Contacts
 - at least 5 new Proc-Gen job types
 - at least 2 new Leverage types
-- a 'MilSec Spy Gear' Service (the more powerful Items will move to this new Service)
-- a Power Play to get the 'MilSec Spy Gear' Service
-- at least 1 more espionage Storyline
+- at least 1 espionage Storyline
 - ultimately, a new Era - the Cold War Era, spy vs. spy between Matsumoto and McKellen
 
+CC-BY-NC\
 Creator: Ahab0300\
 Copyright: 2026\
 Contact: <manticoreforever@google.com>

@@ -3,8 +3,7 @@
 inspired by classic heist and espionage movies. Most are derived from various stealth
 Talents in the base game.
 
-Currently all items are available in the **Spy Gear** Service, but some will be moved to
-the **MilSec Spy Gear** Service when it is available.
+All items are available in the **Spy Gear** Service, which has 5 levels.
 
 ## Buzzcut and Buzzcut Pro
 "A quiet buzzer which obscures other sounds."
@@ -42,7 +41,7 @@ intruders (while Unaware or Suspicious).
 
 ##Lockbreaker Blue, Lockbreaker Red, and Lockbreaker Gold
 "A specialized quantum crypto breaker designed to analyze electronic locks to open
-Blue Key doors."
+Blue/Red/Gold Key doors."
 
 A **Lockbreaker** enables a future Leverage to open Blue, Red, or Gold Key doors. Not
 available for sale but can be found as loot.
@@ -50,7 +49,7 @@ available for sale but can be found as loot.
 ##Mirrorwall
 "A portable mirror to block visual detection."
 
-**Mirrorwall** is the classic portable mirror used in so many heist movies.
+**Mirrorwall** is the classic portable giant mirror used in so many heist movies.
 
 ##Pepper Mist
 "A grenade which releases a mild eye irritant, reducing visual range."
@@ -61,18 +60,12 @@ visual range of Unaware and Suspicious guards. Has no effect on Drones.
 ##Rattler
 "A noisemaker that lures enemies."
 
-**Rattler** can be thrown to attract the attention of guards.
-
-##Rest-In-Peace
-"Device to disable body timers withn an Area of Effect."
-
-The appropriately named **Rest-In-Peace** can be thrown to scramble body timers of
-any dead enemies within range.
+**Rattler** can be activated to attract the attention of guards.
 
 ##SecBuster
-"A security breaker that disables both Lvl 1 and Lvl 2 security devices."
+"A security breaker that disables Lvl 1 security devices."
 
-The advanced technology of **SecBuster** can turn off those pesky Lvl 2 security devices.
+The **SecBuster** can turn off Lvl 1 security devices.
 
 ##Snapline and Snapline 007
 "Piton gun with a powerful retracting motor, capable of pulling the bearer to a target
@@ -94,5 +87,5 @@ many security devices. Will not prevent visual identification.
 "A holographic device which projects a burst of confusing images, causing enemies to
 lose track of the user."
 
-**Vanishing Act** will change a mercenary from Spotted to Hunted. Do not use while
+**Vanishing Act** will change a mercenary from Spotted to Hidden. Do not use while
 under observation; it will not prevent enemies from Spotting the user again.

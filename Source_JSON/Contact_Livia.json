@@ -1,147 +1,307 @@
 {
 	"Metadata": {
-		"#": "Livia, an Intelligence Officer",
+		"#": "Livia, a UNA Intelligence Officer",
 		"StoryKey": "AhabEspionage_Livia",
-		"StartingId": 781000002
+		"StartingId": 781000301
 	},
 	"ContactBackstory": [
 		{
-			"#": "Livia, a formerly retired Intelligence Officer and now independent operator",
-			"ContactBackstoryId": 781000002,
-			"Group": 781000002,
+			"#": "Livia, a UNAIntelligence Officer",
+			"ContactBackstoryId": 781000301,
+			"Group": 781000301,
 			"NewGame": 0,
 			"ContactType": 781000001,
 			"Status": 1,
 			"InfluenceScore": 1,
-			"PowerLevel": 1,
-			"Cosmetic": 781000201,
+			"PowerLevel": 2,
+			"Favor": 0,
+			"Trust": 22,
+			"Cosmetic": 98,
 			"Weight": 1,
-			"Trait1A": "ConTrait_Greedy",
-			"Trait1B": "ConTrait_Paranoid",
-			"Trait2A": "ConTrait_Brazen",
-			"Trait2B": "ConTrait_Collector",
+			"Trait1A": "ConTrait_Skeptical",
+			"Trait1B": "ConTrait_LowTemp",
+			"Trait2A": "ConTrait_DetailOriented",
+			"Trait2B": "ConTrait_TightLipped",
 			"ContactLink": "NCP_AhabEspionage_Livia",
-			"FactionTag": "Faction_Indie",
-			"Tag1": "Tag_OutOfRetirement",
-			"Tag2": "Tag_Networker",
-			"Tag3": "Tag_HiddenIdentity",
-			"TagID": "PersonID_NPC_AhabEspionage_Livia",
-			"GivenName": "Livia"
+			"FactionTag": "Faction_UNA",
+			"Tag1": "Faction_Lawful+Faction_UNA",
+			"Tag2": "Tag_ConspiracyTheorist",
+			"Tag3": "Tag_LaunchPadConnections",
+			"TagID": "PersonID_NCP_AhabEspionage_Livia",
+			"GivenName": "Livia",
+			"Location": "Somewhere, Downtown"
+		}
+	],
+	"Block": [
+		{
+			"GroupId": "B_AhabEspionage_UNAAgent",
+			"Items": [
+				{
+					"Weight": 10,
+					"PreState1": "NOT_TEMP_AhabEspionage_UNAAgent",
+					"PreDialogPostCondition": "Post_AhabEspionage_UNAAgent",
+					"PostState1": "ADD_TEMP_AhabEspionage_UNAAgent",
+					"StoryNode1": "ADD_SN_AhabEspionage_UNAAgent_Start",
+					"OnlyRunOnce": "Forever",
+					"EventId": "Match_AhabEspionage_UNAAgent",
+					"EventType": "Vignette"
+				}
+			]
+		},
+		{
+			"GroupId": "B_AhabEspionage_UNAAgent_Start",
+			"Items": [
+				{
+					"StoryNodeId": "SN_AhabEspionage_UNAAgent_Start",
+					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
+					"Target": "NCT_AhabEspionage_UNAAgent",
+					"Side": "R",
+					"StoryNode2": "DEL_SN_AhabEspionage_UNAAgent_Start",
+					"Dialog": "D_AhabEspionage_UNAAgent_Start",
+					"EventId": "B_AhabEspionage_UNAAgent_Cleanup",
+					"EventType": "TalkOn",
+					"Text": "Someone has been hanging around the club. I think {3} is looking for you."
+				}
+			]
+		},
+		{
+			"GroupId": "B_AhabEspionage_UNAAgent_Cleanup",
+			"Items": [
+				{
+					"PostConditionGroup": "Post_AhabEspionage_UNAAgent_Cleanup",
+					"EventType": "Event"
+				}
+			]
+		}
+	],
+	"StoryNode": [
+		{
+			"GroupId": "SN_AhabEspionage_UNAAgent",
+			"Items": [
+				{
+					"StoryNodeId": "SN_AhabEspionage_UNAAgent_Start",
+					"ExpirationBlock": "B_AhabEspionage_UNAAgent_Start",
+					"ExpirationTurns": 28,
+					"ExpirationRandom": 8
+				}
+			]
+		}
+	],
+	"StoryMatch": [
+		{
+			"GroupId": "Match_AhabEspionage_UNAAgent",
+			"Items": [
+				{
+					"Status": 1,
+					"TagReq1": "NPC_Meta_Entertainment",
+					"TagMatch": "Mem_AhabEspionage_UNAAgent_Intro",
+					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
+					"DebugName": "UNA Agent intro"
+				},
+				{
+					"Optional": "CreateOrFind",
+					"Backstory": 781000301,
+					"Status": 1,
+					"TagReq1": "NPC_SynBoss",
+					"TagReq2": "NPC_GangBoss",
+					"TagMatch": "Mem_AhabEspionage_UNAAgent",
+					"Actor": "NCT_AhabEspionage_UNAAgent",
+					"DebugName": "UNA Agent"
+				}
+			]
+		}
+	],
+	"BlockCondition": [
+		{
+			"GroupId": "Post_AhabEspionage_UNAAgent",
+			"Items": [
+				{
+					"Type": "AddCharacter",
+					"Actor": "NCP_Livia",
+					"BackstoryId": -1,
+					"BackstoryHint": 781000301
+				}
+			]
+		},
+		{
+			"GroupId": "Post_AhabEspionage_UNAAgent_Cleanup",
+			"Items": [
+				{
+					"Type": "Tag",
+					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
+					"Tag": "DEL_Mem_AhabEspionage_UNAAgent_Intro"
+				},
+				{
+					"Type": "Tag",
+					"Actor": "NCT_AhabEspionage_UNAAgent",
+					"Tag": "DEL_Mem_AhabEspionage_UNAAgent"
+				},
+				{
+					"Type": "TempStoryId",
+					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
+					"StoryId": "NCT_AhabEspionage_UNAAgent_Intro",
+					"Remove": "true"
+				},
+				{
+					"Type": "TempStoryId",
+					"Actor": "NCT_AhabEspionage_UNAAgent",
+					"StoryId": "NCT_AhabEspionage_UNAAgent",
+					"Remove": "true"
+				}
+			]
+		}
+	],
+	"Dialog": [
+		{
+			"GroupId": "D_AhabEspionage_UNAAgent_Start",
+			"Items": [
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I've noticed {4} visiting the club for weeks now."},
+				{"Actor": "PCP_Face", "Target": "NCT_AhabEspionage_UNAAgent", "Text": "Is {3} becoming a problem for you?"},
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "No, {3} has been behaving extremely well. Socializing, not drinking to excess, casually making friends."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "What drew my attention is how {3} quietly sought out rumors and stories from the other patrons."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Last night {3} finally approached me, asking about a style=DialogTerm>Cyber Knight</style>. I think you will want to talk to {1}."},
+				{"Actor": "PCP_Knight", "Target": "NCT_AhabEspionage_UNAAgent", "Text": "Interesting. Go ahead and connect us with {4}."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Finally I get to meet you. I've been tracking rumors of a <style=DialogTerm>Cyber Knight</style> across the city."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I've done a lot of research about you and your team."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I think you and I can do some business together."},
+				{"Actor": "PCP_Knight", "Text": "We're always interested in business. Just what is your business?"},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I work for the United North American government. Intelligence division."},
+				{"Actor": "PCP_Face", "Text": "A UNA spy?"},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "As you say. Our job is to keep a close eye on the megacorporations."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "They are constantly pushing the limits of the New Boston Zone Charter."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "They seek advantage over each other in legal and less legal ways. We're lucky they don't break into open warfare more often than they do."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "They try to keep the UNA out of their business, and keep us as weak as possible."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "We have a lot of difficulty getting accurate intelligence on what is going on, and our budget is always in danger."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Occasionally, I find I could use an outside party for clandestine missions. A <style=DialogTerm>Cyber Knight</style> would be a good asset for such jobs."},
+				{"Actor": "PCP_Knight", "Text": "You want deniability. They won't know it was you behind the job."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "We understand each other."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "In addition to the occasional job, I can offer certain tools which can help in your stealthy operations."},
+				{"Actor": "PCP_Knight", "Text": "This sounds interesting. Let us know if you have a job to offer."},
+				{"Actor": "NAR_", "Target": "NCT_AhabEspionage_UNAAgent", "Text": "We can find {1} in our Contact list to check out what additional services and offerings {3} may be able to provide."}
+			]
+		}
+	],
+	"Tag": [
+		{
+			"TagClass": "PersonalID",
+			"TagId": "PersonID_NCP_AhabEspionage_Livia"
+		},
+		{
+			"TagClass": "Hidden",
+			"TagId": "MEM_AhabEspionage_UNAAgent_Intro"
+		},
+		{
+			"TagClass": "Hidden",
+			"TagId": "MEM_AhabEspionage_UNAAgent"
 		}
 	],
 	"CosmeticGroup": [
 		{
-			"GroupId": 781000201,
+			"GroupId": 781000301,
 			"Items": [
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 1,
-					"CosmeticValue2": 6,
-					"CosmeticValue": 6
+					"Random": 781000301,
+					"FieldType": 1,
+					"Value2": 112,
+					"Value": 112
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 103,
-					"CosmeticValue2": 80,
-					"CosmeticValue": 80
+					"Random": 781000301,
+					"FieldType": 107,
+					"Value2": 153076000,
+					"Value": 153076000
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 107,
-					"CosmeticValue2": 204000000,
-					"CosmeticValue": 204000000
+					"Random": 781000301,
+					"FieldType": 108,
+					"Value2": 32032032,
+					"Value": 32032032
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 108,
-					"CosmeticValue2": 255153153,
-					"CosmeticValue": 255153153
+					"Random": 781000301,
+					"FieldType": 109,
+					"Value2": 255128000,
+					"Value": 255128000
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 109,
-					"CosmeticValue2": 76153,
-					"CosmeticValue": 76153
+					"Random": 781000301,
+					"FieldType": 2,
+					"Value2": 3111,
+					"Value": 3111
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 2,
-					"CosmeticValue2": 3123,
-					"CosmeticValue": 3123
+					"Random": 781000301,
+					"FieldType": 104,
+					"Value2": 210153108,
+					"Value": 210153108
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 104,
-					"CosmeticValue2": 153111095,
-					"CosmeticValue": 153111095
+					"Random": 781000301,
+					"FieldType": 128,
+					"Value2": 102051000,
+					"Value": 102051000
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 128,
-					"CosmeticValue2": 255153153,
-					"CosmeticValue": 255153153
+					"Random": 781000301,
+					"FieldType": 3,
+					"Value2": 21003,
+					"Value": 21003
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 3,
-					"CosmeticValue2": 21044,
-					"CosmeticValue": 2038
+					"Random": 781000301,
+					"FieldType": 125,
+					"Value2": 136036036,
+					"Value": 136036036
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 125,
-					"CosmeticValue2": 8008008,
-					"CosmeticValue": 8008008
+					"Random": 781000301,
+					"FieldType": 126,
+					"Value2": 136036036,
+					"Value": 136036036
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 126,
-					"CosmeticValue2": 8008008,
-					"CosmeticValue": 8008008
+					"Random": 781000301,
+					"FieldType": 26,
+					"Value2": 20100,
+					"Value": 20100
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 26,
-					"CosmeticValue2": 20103,
-					"CosmeticValue": 20103
+					"Random": 781000301,
+					"FieldType": 210,
+					"Value2": 136036036,
+					"Value": 136036036
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 210,
-					"CosmeticValue2": 8008008,
-					"CosmeticValue": 8008008
+					"Random": 781000301,
+					"FieldType": 27,
+					"Value2": 20207,
+					"Value": 2204
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 20,
-					"CosmeticValue2": 5001,
-					"CosmeticValue": 5001
+					"Random": 781000301,
+					"FieldType": 211,
+					"Value2": 136036036,
+					"Value": 136036036
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 105,
-					"CosmeticValue2": 204000,
-					"CosmeticValue": 204000
+					"Random": 781000301,
+					"FieldType": 70,
+					"Value2": 1351,
+					"Value": 1351
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 10,
-					"CosmeticValue2": 1005,
-					"CosmeticValue": 1005
+					"Random": 781000301,
+					"FieldType": 10,
+					"Value2": 1023,
+					"Value": 1023
 				},
 				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 116,
-					"CosmeticValue2": 160160160,
-					"CosmeticValue": 160160160
-				},
-				{
-					"RandomGroup": 781000201,
-					"CosmeticFieldType": 117,
-					"CosmeticValue2": 8008008,
-					"CosmeticValue": 8008008
+					"Random": 781000301,
+					"FieldType": 116,
+					"Value2": 8008008,
+					"Value": 8008008
 				}
 			]
 		}
-	]
+	]	
 }

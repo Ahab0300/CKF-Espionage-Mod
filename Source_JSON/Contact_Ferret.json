@@ -1,142 +1,145 @@
 {
 	"Metadata": {
-		"#": "Ferret, an Intelligence Officer",
+		"#": "Ferret, an Information Broker",
 		"StoryKey": "AhabEspionage_Ferret",
-		"StartingId": 781000001
+		"StartingId": 781000201
 	},
 	"ContactBackstory": [
 		{
-			"#": "Ferret, a UNA Intelligence Officer",
-			"ContactBackstoryId": 781000001,
-			"Group": 781000001,
+			"#": "Ferret, a retired former Intelligence Officer and now independent operator",
+			"ContactBackstoryId": 781000201,
+			"Group": 781000201,
 			"NewGame": 0,
-			"ContactType": 781000001,
+			"ContactType": 781000002,
 			"Status": 1,
 			"InfluenceScore": 1,
-			"PowerLevel": 2,
-			"Favor": 0,
-			"Trust": 22,
-			"Cosmetic": 392,
+			"PowerLevel": 1,
+			"Cosmetic": 347,
 			"Weight": 1,
-			"Trait1A": "ConTrait_Skeptical",
-			"Trait1B": "ConTrait_LowTemp",
-			"Trait2A": "ConTrait_DetailOriented",
-			"Trait2B": "ConTrait_TightLipped",
+			"Trait1A": "ConTrait_Greedy",
+			"Trait1B": "ConTrait_Paranoid",
+			"Trait2A": "ConTrait_Brazen",
+			"Trait2B": "ConTrait_Collector",
 			"ContactLink": "NCP_AhabEspionage_Ferret",
-			"FactionTag": "Faction_UNA",
-			"Tag1": "Faction_Lawful+Faction_UNA",
-			"Tag2": "Tag_ConspiracyTheorist",
-			"Tag3": "Tag_LaunchPadConnections",
-			"TagID": "PersonID_NPC_AhabEspionage_Ferret",
-			"CodeName": "Ferret",
-			"Location": "Somewhere, Downtown"
+			"FactionTag": "Faction_Indie",
+			"Tag1": "Tag_OutOfRetirement",
+			"Tag2": "Tag_Networker",
+			"Tag3": "Tag_HiddenIdentity",
+			"TagID": "PersonID_NCP_AhabEspionage_Ferret",
+			"CodeName": "Ferret"
 		}
 	],
 	"CosmeticGroup": [
 		{
-			"GroupId": 781000001,
+			"GroupId": 781000201,
 			"Items": [
 				{
-					"Random": 781000001,
-					"FieldType": 1,
-					"Value2": 112,
-					"Value": 112
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 1,
+					"CosmeticValue2": 6,
+					"CosmeticValue": 6
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 107,
-					"Value2": 153076000,
-					"Value": 153076000
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 103,
+					"CosmeticValue2": 80,
+					"CosmeticValue": 80
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 108,
-					"Value2": 32032032,
-					"Value": 32032032
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 107,
+					"CosmeticValue2": 204000000,
+					"CosmeticValue": 204000000
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 109,
-					"Value2": 255128000,
-					"Value": 255128000
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 108,
+					"CosmeticValue2": 255153153,
+					"CosmeticValue": 255153153
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 2,
-					"Value2": 3111,
-					"Value": 3111
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 109,
+					"CosmeticValue2": 76153,
+					"CosmeticValue": 76153
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 104,
-					"Value2": 210153108,
-					"Value": 210153108
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 2,
+					"CosmeticValue2": 3123,
+					"CosmeticValue": 3123
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 128,
-					"Value2": 102051000,
-					"Value": 102051000
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 104,
+					"CosmeticValue2": 153111095,
+					"CosmeticValue": 153111095
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 3,
-					"Value2": 21003,
-					"Value": 21003
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 128,
+					"CosmeticValue2": 255153153,
+					"CosmeticValue": 255153153
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 125,
-					"Value2": 136036036,
-					"Value": 136036036
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 3,
+					"CosmeticValue2": 21044,
+					"CosmeticValue": 2038
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 126,
-					"Value2": 136036036,
-					"Value": 136036036
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 125,
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 26,
-					"Value2": 20100,
-					"Value": 20100
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 126,
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 210,
-					"Value2": 136036036,
-					"Value": 136036036
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 26,
+					"CosmeticValue2": 20103,
+					"CosmeticValue": 20103
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 27,
-					"Value2": 20207,
-					"Value": 2204
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 210,
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 211,
-					"Value2": 136036036,
-					"Value": 136036036
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 20,
+					"CosmeticValue2": 5001,
+					"CosmeticValue": 5001
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 70,
-					"Value2": 1351,
-					"Value": 1351
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 105,
+					"CosmeticValue2": 204000,
+					"CosmeticValue": 204000
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 10,
-					"Value2": 1023,
-					"Value": 1023
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 10,
+					"CosmeticValue2": 1005,
+					"CosmeticValue": 1005
 				},
 				{
-					"Random": 781000001,
-					"FieldType": 116,
-					"Value2": 8008008,
-					"Value": 8008008
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 116,
+					"CosmeticValue2": 160160160,
+					"CosmeticValue": 160160160
+				},
+				{
+					"RandomGroup": 781000201,
+					"CosmeticFieldType": 117,
+					"CosmeticValue2": 8008008,
+					"CosmeticValue": 8008008
 				}
 			]
 		}
@@ -170,10 +173,10 @@
 			"GroupId": "Post_UHUB_Fixer_AhabEspionage_Ferret",
 			"Items": [
 				{
-					"ConditionType": "AddCharacter",
+					"Type": "AddCharacter",
 					"Actor": "NCP_AhabEspionage_Ferret",
-					"Value1": -1,
-					"Value2": 781000001
+					"BackstoryId": -1,
+					"BackstoryHint": 781000002
 				}
 			]
 		}
@@ -186,7 +189,7 @@
 					"Actor": "PCP_Face",
 					"Side": "L",
 					"Target": "NCP_AhabEspionage_Ferret",
-					"Text": "Let me introduce {1}, our latest connect and a {2}."
+					"Text": "Let me introduce {1}, our latest connect and {2}."
 				},
 				{
 					"Actor": "NCP_AhabEspionage_Ferret",
@@ -195,9 +198,16 @@
 				},
 				{
 					"Actor": "NAR_",
-					"Text": "We can find {2} {1} in our Contact list to check out what additional services and offerings they may be able to offer."
+					"Target": "NCP_AhabEspionage_Ferret",
+					"Text": "We can find {8} in our Contact list to check out what additional services and offerings they may be able to offer."
 				}
 			]
+		}
+	],
+	"Tag": [
+		{
+			"TagClass": "PersonalID",
+			"TagId": "PersonID_NCP_AhabEspionage_Ferret"
 		}
 	]
 }

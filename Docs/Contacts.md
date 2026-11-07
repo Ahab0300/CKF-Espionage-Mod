@@ -26,16 +26,12 @@ Under development, they will provide a variety of Leverages, including some new 
 can also outsource some of their work, offering espionage-related Missions and Legwork.
 
 ##Information Broker Class
-This class is still under development. They will specialize in buying and selling information.
+This class is still under development. They specialize in buying and selling information.
 They will probably also have some unique new Services.
 
 ##Spy Gear Service
 The basic Service selling many of the new Items in the **Espionage Mod**. For testing, all
 items are available at Lvl 1 of the **Spy Gear** Service.
-
-##MilSec Spy Gear Service
-Service selling the more advanced, military-grade gear. This Service will be locked behind
-a Power Play.
 
 ##Leverages
 At least two new Leverages are under development. **Intelligence Officers** will also offer

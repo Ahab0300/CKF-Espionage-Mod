@@ -2,11 +2,11 @@
     "Metadata": {
 		"#": "Legwork: Stakeout, a mission to observe a location",
         "StoryKey": "AhabEspionage_Stakeout",
-		"StartingId": 781000201
+		"StartingId": 781001101
 	},
     "Legwork": [
         {
-            "JsonId": 781000201,
+            "JsonId": 781001101,
             "TagChance1": 80,
             "TagChance2": 70,
             "TagChance3": 55,
@@ -115,7 +115,7 @@
             "GroupId": "B_AhabEspionage_LegStakeout",
             "Items": [
                 {
-                    "Weight": 100,
+                    "Weight": 10,
                     "PreState1": "NOT_S_AhabEspionage_LegStakeout_DelayRestart",
                     "PostState1": "ADD_S_AhabEspionage_LegStakeout_DelayRestart",
                     "StoryNode1": "ADD_SN_AhabEspionage_LegStakeout_Start",
@@ -258,14 +258,14 @@
             "GroupId": "Post_AhabEspionage_LegStakeout_Cleanup",
             "Items": [
                 {
-                    "ConditionType": "TempStoryId",
+                    "Type": "TempStoryId",
                     "Actor": "NCT_AhabEspionage_LegStakeout",
-                    "OptionId": -1
+                    "Remove": "true"
                 },
                 {
-                    "ConditionType": "Tag",
+                    "Type": "Tag",
                     "Actor": "PTG_LegMem_AhabEspionage_LegStakeout",
-                    "ConditionKey": "DEL_LegMem_AhabEspionage_LegStakeout"
+                    "Tag": "DEL_LegMem_AhabEspionage_LegStakeout"
                 }
             ]
         },

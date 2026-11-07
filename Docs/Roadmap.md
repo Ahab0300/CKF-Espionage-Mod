@@ -3,8 +3,8 @@ There are several more things I intend to add to the **Espionage Mod**.
 
 ##New Proc-Gen Jobs
 I plan at least 5 new Proc-Gen Jobs. The details may change as I learn what is possible
-in creating new Objective types. Some of these objectives may not be possible without
-coding. At the very least, most of them will require adding new objective zones on maps.
+in creating new Objective types. At the very least, most of them will require adding
+new objective zones on maps.
 
 ###Pilfer Job
 A Contact needs to steal some materials. This is a simple mission to visit three
@@ -41,9 +41,6 @@ At start of stage, see the predicted movement of all visible guards.
 ###Guard Roster
 At start of stage, see all guards initially on the map.
 
-##Power Play Mission
-There will be a Power Play mission to get the **MilSec Spy Gear** Service.
-
 ##Other New Storyline
 At least one more espionage storyline will be added to the mod, still TBD.
 
@@ -52,5 +49,5 @@ Matsumoto and McKellen enter a cold war, caused by growing tension over the UNA 
 to McKellen to build the new Ward 11. They cannot act directly with the UNA watching
 over the project, so it is spy vs. spy. There may be three separate guages in this Era,
 two guages measuring the degree of intelligence each side has on the other and a third
-measuring the completion of the foundation for the future Ward wall. The concept is
-still evolving.
+measuring the completion of the foundation for the future Ward wall. The UNA may also
+interfere from time to time. The concept is still evolving.

@@ -10,10 +10,10 @@
 			"ItemTypeId": 781000010,
 			"Class": 3,
 			"Asset": 25,
-			"Service": 100,
+			"Service": 781000001,
 			"Rarity": "Common",
 			"PowerLevel": 1,
-			"Cost": 10,
+			"Cost": 4,
 			"Talent": 781000010,
 			"Name": "Rattler",
 			"Desc": "A noisemaker that lures enemies."  
@@ -27,16 +27,16 @@
 			"AltAdjust": 1,
 			"Level": 1,
 			"Cost": 1,
-			"IsActive": 1,
+			"IsActive": "Active",
 			"Range": 15,
 			"AoE": 8,
-			"Action": 2,
+			"Action": "SuspiciousNoise",
 			"AP": 20,
 			"Charges": 2,
-			"TargetType": "FLOOR",
+			"TargetType": "Floor",
 			"Vfx": "Talents/PurpleBuffV2",
 			"Icon": "talent_vanguard_lure",
-			"StringKey": "Job.Talents.Active.SecuritySpotted.AhabEspionage_Rattler",
+			"StringKey": "Job.Talents.Active.SecuritySpotted",
 			"EventSFX": "CHAR_TLNT_Tech",
 			"GroupSFX": "TechType",
 			"TypeSFX": "Predictive",
@@ -56,10 +56,5 @@
 			"Desc": "LootBox.Items.Desc.SealedItem",
 			"Icon": "item_firstaid"
 		}
-	],
-	"RawText": {
-		"Generic": {
-			"Job.Talents.Active.SecuritySpotted.AhabEspionage_Rattler": "Toss up to {3}, creating a distracting rattle. Any enemies within {4} of your chosen point will immediately become Suspicious, rotate toward it and move to investigate it on their next action."
-		}
-	}
+	]
 }

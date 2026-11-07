@@ -19,12 +19,15 @@ Source_JSON/Item_Lockbreaker.json
 Source_JSON/Item_Mirrorwall.json
 Source_JSON/Item_Pepper_Mist.json
 Source_JSON/Item_Rattler.json
-Source_JSON/Item_Rest_In_Peace.json
 Source_JSON/Item_SecBuster.json
 Source_JSON/Item_Snapline.json
 Source_JSON/Item_Spoof.json
 Source_JSON/Item_Vanishing_Act.json
-
+# Source_JSON/Item_Rest_In_Peace.json
+# Rest-in-Peace does not work
+# Throwing is incompatible with the Faked Vitals effect
+# if self-centered, it would require a new TargetType of ENEMY_CORPSE_SELFCENTER
+# ENEMY_CORPSE will only target a single corpse
 
 # Contact Classes
 #
@@ -33,7 +36,7 @@ Source_JSON/Item_Vanishing_Act.json
 #
 # ContactType, ContactService, Tag
 
-Source_JSON/ContactType_Intelligence_Officer.json
+Source_JSON/ContactTypes.json
 
 
 # Contacts
@@ -44,8 +47,8 @@ Source_JSON/ContactType_Intelligence_Officer.json
 # ContactBackstory, CosmeticGroup
 
 Source_JSON/Contact_Ferret.json
-# Source_JSON/Contacts/Rayburn.json
-# Source_JSON/Contacts/Livia.json
+# Source_JSON/Contact_Rayburn.json
+Source_JSON/Contact_Livia.json
 
 
 # Stories
@@ -57,4 +60,3 @@ Source_JSON/Contact_Ferret.json
 
 Source_JSON/Legwork_PGen_LegSurveillance.json
 Source_JSON/Legwork_PGen_LegStakeout.json
-#Source_JSON/legtest.json

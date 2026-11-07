@@ -2,11 +2,11 @@
     "Metadata": {
         "#": "Legwork: Surveillance, a mission to follow a person",
         "StoryKey": "AhabEspionage_Surveillance",
-        "StartingId": 781000101
+        "StartingId": 781001001
     },
     "Legwork": [
         {
-            "JsonId": 781000101,
+            "JsonId": 781001001,
             "TagChance1": 80,
             "TagChance2": 70,
             "TagChance3": 55,
@@ -122,7 +122,7 @@
             "GroupId": "B_AhabEspionage_LegSurveillance",
             "Items": [
                 {
-                    "Weight": 100,
+                    "Weight": 10,
                     "PreState1": "NOT_S_AhabEspionage_LegSurveillance_DelayRestart",
                     "PostState1": "ADD_S_AhabEspionage_LegSurveillance_DelayRestart",
                     "StoryNode1": "ADD_SN_AhabEspionage_LegSurveillance_Start",
@@ -265,14 +265,14 @@
             "GroupId": "Post_AhabEspionage_LegSurveillance_Cleanup",
             "Items": [
                 {
-                    "ConditionType": "TempStoryId",
+                    "Type": "TempStoryId",
                     "Actor": "NCT_AhabEspionage_LegSurveillance",
-                    "OptionId": -1
+                    "Remove": "true"
                 },
                 {
-                    "ConditionType": "Tag",
+                    "Type": "Tag",
                     "Actor": "PTG_LegMem_AhabEspionage_LegSurveillance",
-                    "ConditionKey": "DEL_LegMem_AhabEspionage_LegSurveillance"
+                    "Tag": "DEL_LegMem_AhabEspionage_LegSurveillance"
                 }
             ]
         },
