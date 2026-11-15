@@ -1,21 +1,21 @@
-#New Contacts
+# New Contacts
 **Espionage Mod** introduces 1 new Contact, with several more Contacts coming.
 
-##Ferret
+## Ferret
 Ferret is an Intelligence Officer working for the United North America (UNA)
 government. He tries to keep track of the activities of the megacorporations of
 the New Boston Zone. He sees the Cyber Knight's squad as deniable asset, offering
 them jobs he doesn't want his own fingerprints on.
 
-##Other Contacts
+## Other Contacts
 An Information Broker will be added in the future. Several more Intelligence Officers
 will also be added, including some involved in the **Cold War Era**.
 
-#New Contact Classes
+# New Contact Classes
 **Espionage Mod** introduces one new Contact Class. A second Contact Class is under
 development.
 
-##Intelligence Officer Class
+## Intelligence Officer Class
 "An Agent running intelligence-gathering operations and intelligence analysis."
 
 The **Intelligence Officer** is a spymaster. They may work for the government, a corporation,
@@ -25,14 +25,14 @@ raw intelligence, and can sell **Spy Gear**.
 Under development, they will provide a variety of Leverages, including some new ones. They
 can also outsource some of their work, offering espionage-related Missions and Legwork.
 
-##Information Broker Class
+## Information Broker Class
 This class is still under development. They specialize in buying and selling information.
 They will probably also have some unique new Services.
 
-##Spy Gear Service
+## Spy Gear Service
 The basic Service selling many of the new Items in the **Espionage Mod**. For testing, all
 items are available at Lvl 1 of the **Spy Gear** Service.
 
-##Leverages
+## Leverages
 At least two new Leverages are under development. **Intelligence Officers** will also offer
 some existing Leverages.

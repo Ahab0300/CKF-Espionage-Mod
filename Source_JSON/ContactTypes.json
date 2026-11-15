@@ -97,7 +97,7 @@
         },
         {
             "#": "Spy Gear service, Rank 5",
-            "ServiceTypeId": 781000004,
+            "ServiceTypeId": 781000005,
             "Class": 1,
             "Flow": 7,
             "Group": 781000001,

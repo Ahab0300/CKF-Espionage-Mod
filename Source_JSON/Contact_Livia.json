@@ -60,7 +60,7 @@
 					"Dialog": "D_AhabEspionage_UNAAgent_Start",
 					"EventId": "B_AhabEspionage_UNAAgent_Cleanup",
 					"EventType": "TalkOn",
-					"Text": "Someone has been hanging around the club. I think {3} is looking for you."
+					"Text": "Someone has been hanging around the bar. I think {3} is looking for you."
 				}
 			]
 		},
@@ -117,7 +117,7 @@
 			"Items": [
 				{
 					"Type": "AddCharacter",
-					"Actor": "NCP_Livia",
+					"Actor": "NCP_AhabEspionage_Livia",
 					"BackstoryId": -1,
 					"BackstoryHint": 781000301
 				}
@@ -126,16 +126,6 @@
 		{
 			"GroupId": "Post_AhabEspionage_UNAAgent_Cleanup",
 			"Items": [
-				{
-					"Type": "Tag",
-					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
-					"Tag": "DEL_Mem_AhabEspionage_UNAAgent_Intro"
-				},
-				{
-					"Type": "Tag",
-					"Actor": "NCT_AhabEspionage_UNAAgent",
-					"Tag": "DEL_Mem_AhabEspionage_UNAAgent"
-				},
 				{
 					"Type": "TempStoryId",
 					"Actor": "NCT_AhabEspionage_UNAAgent_Intro",
@@ -155,11 +145,11 @@
 		{
 			"GroupId": "D_AhabEspionage_UNAAgent_Start",
 			"Items": [
-				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I've noticed {4} visiting the club for weeks now."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I've noticed {4} visiting the bar for weeks now."},
 				{"Actor": "PCP_Face", "Target": "NCT_AhabEspionage_UNAAgent", "Text": "Is {3} becoming a problem for you?"},
 				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "No, {3} has been behaving extremely well. Socializing, not drinking to excess, casually making friends."},
 				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "What drew my attention is how {3} quietly sought out rumors and stories from the other patrons."},
-				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Last night {3} finally approached me, asking about a style=DialogTerm>Cyber Knight</style>. I think you will want to talk to {1}."},
+				{"Actor": "NCT_AhabEspionage_UNAAgent_Intro", "Target": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Last night {3} finally approached me, asking about a <style=DialogTerm>Cyber Knight</style>. I think you will want to talk to {1}."},
 				{"Actor": "PCP_Knight", "Target": "NCT_AhabEspionage_UNAAgent", "Text": "Interesting. Go ahead and connect us with {4}."},
 				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "Finally I get to meet you. I've been tracking rumors of a <style=DialogTerm>Cyber Knight</style> across the city."},
 				{"Actor": "NCT_AhabEspionage_UNAAgent", "Side": "R", "Text": "I've done a lot of research about you and your team."},
@@ -188,11 +178,11 @@
 		},
 		{
 			"TagClass": "Hidden",
-			"TagId": "MEM_AhabEspionage_UNAAgent_Intro"
+			"TagId": "Mem_AhabEspionage_UNAAgent_Intro"
 		},
 		{
 			"TagClass": "Hidden",
-			"TagId": "MEM_AhabEspionage_UNAAgent"
+			"TagId": "Mem_AhabEspionage_UNAAgent"
 		}
 	],
 	"CosmeticGroup": [
